@@ -228,7 +228,7 @@ def RegexOutAllCleanText(year: int):
 def GenerateStockCSV(year, txtFile, asset, transactionType, date, price, documentID):
     with open(f"Reports/{year}/CSVCleanTxtPDF/{txtFile[:-4]}.csv", 'a', encoding="utf-8") as txtCleaner:
         txtCleaner.write(f"{asset}, ")
-        txtCleaner.write(f"{price},")
+        txtCleaner.write(f"{price}, ")
         txtCleaner.write(f"{date}, ")
         txtCleaner.write(f"{documentID}, ")
         txtCleaner.write(f"{transactionType}\n")
