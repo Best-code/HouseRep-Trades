@@ -226,7 +226,7 @@ def GenerateStockCSV(year, txtFile, asset, transactionType, date, price):
 
 # AllPdfsToText(2025)
 # CleanAllTextFiles(2025)
-RegexOutAllCleanText(2025)
+# RegexOutAllCleanText(2025)
 
 
 # 1. GetFDReport
