@@ -174,7 +174,11 @@ def RegexOutCleanText(year: int, txtFile: str) -> None:
     except FileNotFoundError:
         pass
 
-    asset_pattern = r"^(.*?)(?=\s+\[ST\])"
+    # Entire asset name
+    # asset_pattern = r"^(.*?)(?=\s+\[ST\])"
+    
+    # Only the asset ticker 
+    asset_pattern = r"\(([^)]+)\)"
     transaction_pattern = r"\](\w)"
     date_pattern = r"(\d{2}/\d{2}/\d{4})"
     price_pattern = r"\$\d{1,3}(?:,\d{3})*(?:\.\d{2})?\s*-\s*\$\d{1,3}(?:,\d{3})*(?:\.\d{2})?"
@@ -198,7 +202,7 @@ def RegexOutCleanText(year: int, txtFile: str) -> None:
                 continue 
             
             
-            asset = line[:re.search(asset_pattern, line).end()].replace(",","").strip()
+            asset = line[re.search(asset_pattern, line).start() : re.search(asset_pattern, line).end()].replace(",","").strip()
             # # Cutting out the table spill over
             if re.search(excess_pattern, asset):
                 asset = asset[re.search(excess_pattern, line).end():]
@@ -224,9 +228,9 @@ def GenerateStockCSV(year, txtFile, asset, transactionType, date, price):
         txtCleaner.write(f"{price}\n")
         txtCleaner.close()
 
-# AllPdfsToText(2025)
-# CleanAllTextFiles(2025)
-# RegexOutAllCleanText(2025)
+AllPdfsToText(2025)
+CleanAllTextFiles(2025)
+RegexOutAllCleanText(2025)
 
 
 # 1. GetFDReport

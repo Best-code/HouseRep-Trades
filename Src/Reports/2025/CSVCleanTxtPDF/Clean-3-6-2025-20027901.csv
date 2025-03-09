@@ -1,45 +1,52 @@
-JT Abbott Laboratories Common Stock (ABT), P, 02/13/2025, 15000
-JT Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share (BABA), P, 02/12/2025, 15000
-JT Ambev S.A. American Depositary Shares (ABEV), S, 02/07/2025, 15000
-JT Ambev S.A. American Depositary Shares (ABEV), S, 02/06/2025, 15000
-JT Apple Inc. - Common Stock (AAPL), S, 02/03/2025, 15000
-JT Apple Inc. - Common Stock (AAPL), S, 02/24/2025, 15000
-JT Apple Inc. - Common Stock (AAPL), S, 02/21/2025, 15000
-JT Berkshire Hathaway Inc. New Common Stock (BRK.B), S, 02/21/2025, 15000
-JT Blackstone Inc. Common Stock (BX), S, 02/27/2025, 15000
-JT Blackstone Inc. Common Stock (BX), S, 02/26/2025, 15000
-JT Block Inc. Class A Common Stock (XYZ), S, 02/27/2025, 15000
-JT Block Inc. Class A Common Stock (XYZ), P, 02/03/2025, 15000
-JT Broadcom Inc. - Common Stock (AVGO), P, 02/06/2025, 15000
-JT Charles Schwab Corporation (SCHW), S, 02/21/2025, 15000
-JT Cisco Systems Inc. - Common Stock (CSCO), S, 02/21/2025, 15000
-JT D.R. Horton Inc. Common Stock (DHI), S, 02/13/2025, 15000
-JT DASSAULT SYSTEMES SA ADR (DASTY), S, 02/21/2025, 15000
-JT DISCO CORP UNSP /ADR (DSCSY), P, 02/10/2025, 15000
-JT DISCO CORP UNSP /ADR (DSCSY), P, 02/07/2025, 15000
-JT EEN ENERGY HLDGS UNSP/ADR (XNGSY), S, 02/07/2025, 15000
-JT EEN ENERGY HLDGS UNSP/ADR (XNGSY), S, 02/10/2025, 15000
-JT Eli Lilly and Company Common Stock (LLY), S, 02/19/2025, 15000
-JT ICF International Inc. - Common Stock (ICFI), S, 02/19/2025, 15000
-JT Infineon Technologies AG (IFNNY), S, 02/21/2025, 15000
-JT KKR & Co. Inc. Common Stock (KKR), S, 02/27/2025, 15000
-JT KKR & Co. Inc. Common Stock (KKR), S, 02/26/2025, 15000
-JT Microsoft Corporation - Common Stock (MSFT), S, 02/24/2025, 15000
-JT Microsoft Corporation - Common Stock (MSFT), S, 02/21/2025, 15000
-JT Microsoft Corporation - Common Stock (MSFT), S, 02/14/2025, 5000000
-JT Paragon 28 Inc. Common Stock (FNA), S, 02/27/2025, 15000
-JT Paychex Inc. - Common Stock (PAYX), S, 02/21/2025, 15000
-JT PayPal Holdings Inc. - Common Stock (PYPL), S, 02/13/2025, 15000
-JT PayPal Holdings Inc. - Common Stock (PYPL), S, 02/06/2025, 15000
-JT Shopify Inc. Class A Subordinate Voting Shares (SHOP), P, 02/12/2025, 15000
-JT Shopify Inc. Class A Subordinate Voting Shares (SHOP), P, 02/03/2025, 15000
-JT Snowflake Inc. Class A Common Stock (SNOW), P, 02/21/2025, 15000
-JT Spotify Technology S.A. Ordinary Shares (SPOT), S, 02/21/2025, 15000
-JT Tesla Inc. - Common Stock (TSLA), P, 02/05/2025, 15000
-JT Tesla Inc. - Common Stock (TSLA), S, 02/14/2025, 15000
-JT Tesla Inc. - Common Stock (TSLA), S, 02/13/2025, 15000
-JT Transdigm Group Incorporated Common Stock (TDG), S, 02/04/2025, 15000
-JT Twilio Inc. Class A Common Stock (TWLO), P, 02/06/2025, 15000
-JT Union Pacific Corporation Common Stock (UNP), P, 02/03/2025, 15000
-JT Vertiv Holdings LLC Class A Common Stock (VRT), S, 02/25/2025, 15000
-JT Walmart Inc. Common Stock (WMT), P, 02/03/2025, 15000
+(ABT), P, 02/13/2025, 15000
+(BABA), P, 02/12/2025, 15000
+(ABEV), S, 02/07/2025, 15000
+(ABEV), S, 02/06/2025, 15000
+(AAPL), S, 02/03/2025, 15000
+(AAPL), S, 02/24/2025, 15000
+(AAPL), S, 02/21/2025, 15000
+(BRK.B), S, 02/21/2025, 15000
+(BX), S, 02/27/2025, 15000
+(BX), S, 02/26/2025, 15000
+(XYZ), S, 02/27/2025, 15000
+(XYZ), P, 02/03/2025, 15000
+(AVGO), P, 02/06/2025, 15000
+(SCHW), S, 02/21/2025, 15000
+(CSCO), S, 02/21/2025, 15000
+(DHI), S, 02/13/2025, 15000
+(DASTY), S, 02/21/2025, 15000
+(DSCSY), P, 02/10/2025, 15000
+(DSCSY), P, 02/07/2025, 15000
+(XNGSY), S, 02/07/2025, 15000
+(XNGSY), S, 02/10/2025, 15000
+(LLY), S, 02/19/2025, 15000
+(ICFI), S, 02/19/2025, 15000
+(IFNNY), S, 02/21/2025, 15000
+(KKR), S, 02/27/2025, 15000
+(KKR), S, 02/26/2025, 15000
+(MSFT), S, 02/24/2025, 15000
+(MSFT), S, 02/21/2025, 15000
+(MSFT), P, 02/14/2025, 5000000
+(MSFT), P, 02/14/2025, 1000000
+(MSFT), P, 02/14/2025, 5000000
+(MSFT), P, 02/14/2025, 5000000
+(MSFT), S, 02/14/2025, 1000000
+(MSFT), S, 02/14/2025, 500000
+(MSFT), S, 02/14/2025, 5000000
+(MSFT), S, 02/14/2025, 5000000
+(FNA), S, 02/27/2025, 15000
+(PAYX), S, 02/21/2025, 15000
+(PYPL), S, 02/13/2025, 15000
+(PYPL), S, 02/06/2025, 15000
+(SHOP), P, 02/12/2025, 15000
+(SHOP), P, 02/03/2025, 15000
+(SNOW), P, 02/21/2025, 15000
+(SPOT), S, 02/21/2025, 15000
+(TSLA), P, 02/05/2025, 15000
+(TSLA), S, 02/14/2025, 15000
+(TSLA), S, 02/13/2025, 15000
+(TDG), S, 02/04/2025, 15000
+(TWLO), P, 02/06/2025, 15000
+(UNP), P, 02/03/2025, 15000
+(VRT), S, 02/25/2025, 15000
+(WMT), P, 02/03/2025, 15000

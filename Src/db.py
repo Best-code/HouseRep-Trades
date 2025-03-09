@@ -2,7 +2,7 @@ import sqlite3, os
 
 con = sqlite3.connect("tutorial.db")
 cur = con.cursor()
-# cur.execute("CREATE TABLE trade(Asset, TransactionType, Date, UptoPrice)")
+cur.execute("CREATE TABLE trade(Asset, TransactionType, Date, UptoPrice)")
 
 def AllCSV(year: int):
     for csvFile in os.listdir(f"Reports/{year}/CSVCleanTxtPDF"):
@@ -22,7 +22,7 @@ def AddToDB(csv: list):
     
     cur.execute(f"INSERT INTO trade VALUES('{asset}', '{transactionType}', '{date}', {uptoPrice})")
 
-# AllCSV(2025)
-# con.commit()
+AllCSV(2025)
+con.commit()
 
 con.close()
