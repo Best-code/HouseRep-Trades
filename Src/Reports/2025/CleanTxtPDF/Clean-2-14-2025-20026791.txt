@@ -1,0 +1,11 @@
+Adobe Inc. - Common Stock (ADBE) [ST]P 02/12/2025 02/13/2025 $1,001 - $15,000 
+Apple Inc. - Common Stock (AAPL) [ST]P 02/12/2025 02/13/2025 $1,001 - $15,000 
+Devon Energy Corporation Common Stock (DVN)  [ST]P 02/12/2025 02/13/2025 $1,001 - $15,000 
+Goldman Sachs Group, Inc. (GS)  [ST] P 02/12/2025 02/13/2025 $1,001 - $15,000 
+Intel Corporation - Common Stock (INTC)  [ST]P 02/12/2025 02/13/2025 $1,001 - $15,000 
+Meta Platforms, Inc. - Class A Common Stock (META)  [ST]P 02/12/2025 02/13/2025 $1,001 - $15,000 
+Microsoft Corporation - Common Stock (MSFT)  [ST]P 02/12/2025 02/13/2025 $1,001 - $15,000 
+Norfolk Southern Corporation Common Stock (NSC)  [ST]P 02/12/2025 02/13/2025 $1,001 - $15,000Filing ID #20026791ID OwnerAsset Transaction TypeDate Notification DateAmount Cap . Gains > 
+Palantir Technologies Inc. - Class A Common Stock (PLTR)  [ST]P 02/12/2025 02/13/2025 $1,001 - $15,000 
+United Parcel Service, Inc. Common Stock (UPS)  [ST]P 02/12/2025 02/13/2025 $1,001 - $15,000 
+US Treasury Bill  [GS] P 02/12/2025 02/13/2025 $100,001 - $250,000 
