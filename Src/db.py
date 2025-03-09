@@ -11,6 +11,7 @@ CREATE TABLE IF NOT EXISTS person (
     DocumentID TEXT UNIQUE NOT NULL
 )
 """)
+
 cur.execute("""
 CREATE TABLE IF NOT EXISTS trade (
     ID INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -34,15 +35,16 @@ def AddAllTradesToTrade(year: int):
 def AddTradeToTrade(csv: list):
     # Strip to remove whitespace
     asset = Clean(csv[0])
-    transactionType = Clean(csv[1])
+    uptoPrice = Clean(csv[1])
     date = Clean(csv[2])
-    uptoPrice = Clean(csv[3])
-    documentID = Clean(csv[4])
+    documentID = Clean(csv[3])
+    transactionType = Clean(csv[4])
     
-    cur.execute(f"INSERT INTO trade VALUES('{asset}', '{uptoPrice}', '{date}', '{documentID}', {transactionType})")
+    cur.execute("INSERT INTO trade (AssetTicker, Price, DatePurchased, DocumentID, TransactionType) VALUES (?, ?, ?, ?, ?)",
+                (asset, uptoPrice, date, documentID, transactionType))
      
 def AddAllPersonsToPerson(year: int):
-    with open(f"Reports/{year}FD.csv", 'r') as csv:
+    with open(f"Disclosures/{year}FD.csv", 'r') as csv:
         for line in csv.readlines():
             AddPersonToPerson(line.split(","))
 
@@ -50,10 +52,14 @@ def AddPersonToPerson(csv: list):
     name = Clean(csv[0])
     docID = Clean(csv[2])
     
-    cur.execute(f"INSERT INTO person VALUES('{name}', '{docID}')")
+    cur.execute("INSERT INTO person (Name, DocumentID) VALUES (?, ?)", (name, docID))
+    
                     
 def Clean(textIn: str) -> str:
     return textIn.replace("'","\"").strip()
+
+# AddAllTradesToTrade(2025)
+# AddAllPersonsToPerson(2025)
 
 con.commit()
 con.close()
