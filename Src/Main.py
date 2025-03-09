@@ -183,6 +183,7 @@ def RegexOutCleanText(year: int, txtFile: str) -> None:
     date_pattern = r"(\d{2}/\d{2}/\d{4})"
     price_pattern = r"\$\d{1,3}(?:,\d{3})*(?:\.\d{2})?\s*-\s*\$\d{1,3}(?:,\d{3})*(?:\.\d{2})?"
     upto_price_pattern = r"\$\d{1,3}(?:,\d{3})*(?:\.\d{2})?\s*-\s*\$"
+    documentID_pattern = r"(\d+)\.txt$"
     excess_pattern = r"TypeDate Notification DateAmount Cap . Gains > "
     
     with open(f"Reports/{year}/CleanTxtPDF/{txtFile}", 'r', encoding="utf-8") as txt:
@@ -211,7 +212,11 @@ def RegexOutCleanText(year: int, txtFile: str) -> None:
             date = line[re.search(date_pattern, line).start() : re.search(date_pattern, line).end()].replace(",","").strip()
             price = line[re.search(upto_price_pattern, line).end() : re.search(price_pattern, line).end()].replace(",","").strip()
 
-            GenerateStockCSV(year, txtFile, asset, transactionType, date, price)
+            print(txtFile)
+            documentID = txtFile[re.search(documentID_pattern, txtFile).start():-4].replace(",","").strip()
+            print(documentID)
+
+            GenerateStockCSV(year, txtFile, asset, transactionType, date, price, documentID)
         
         txt.close()
         
@@ -220,12 +225,13 @@ def RegexOutAllCleanText(year: int):
         RegexOutCleanText(year, txt) 
         
 # Generates the CSV for the Cleaned and Regexed PDFtoText file
-def GenerateStockCSV(year, txtFile, asset, transactionType, date, price):
+def GenerateStockCSV(year, txtFile, asset, transactionType, date, price, documentID):
     with open(f"Reports/{year}/CSVCleanTxtPDF/{txtFile[:-4]}.csv", 'a', encoding="utf-8") as txtCleaner:
         txtCleaner.write(f"{asset}, ")
-        txtCleaner.write(f"{transactionType}, ")
+        txtCleaner.write(f"{price},")
         txtCleaner.write(f"{date}, ")
-        txtCleaner.write(f"{price}\n")
+        txtCleaner.write(f"{documentID}, ")
+        txtCleaner.write(f"{transactionType}\n")
         txtCleaner.close()
 
 AllPdfsToText(2025)
