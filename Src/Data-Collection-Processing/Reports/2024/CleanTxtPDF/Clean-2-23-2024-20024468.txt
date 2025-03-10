@@ -1,0 +1,15 @@
+Alphabet Inc. - Class A Common Stock (GOOGL)  [ST]S (partial) 01/25/2024 02/01/2024 $1,001 - $15,000 
+Alphabet Inc. - Class A Common Stock (GOOGL)  [ST]S (partial) 01/25/2024 02/01/2024 $1,001 - $15,000 
+Alphabet Inc. - Class C Capital Stock (GOOG)  [ST]S (partial) 01/25/2024 02/01/2024 $1,001 - $15,000 
+Alphabet Inc. - Class C Capital Stock (GOOG)  [ST]S (partial) 01/25/2024 02/01/2024 $1,001 - $15,000 
+Amazon.com, Inc. - Common Stock (AMZN)  [ST]S (partial) 01/25/2024 02/01/2024 $1,001 - $15,000 
+Amazon.com, Inc. - Common Stock (AMZN)  [ST]S (partial) 01/25/2024 02/01/2024 $1,001 - $15,000 
+Apple Inc. - Common Stock (AAPL) [ST]S (partial) 01/25/2024 02/01/2024 $15,001 - $50,000 
+Apple Inc. - Common Stock (AAPL) S (partial) 01/25/2024 02/01/2024 $15,001 -Filing ID #20024468ID OwnerAsset Transaction TypeDate Notification DateAmount Cap . Gains > [ST] $50,000 
+Berkshire Hathaway Inc. New Common Stock (BRK.B)  [ST]S (partial) 01/25/2024 02/01/2024 $1,001 - $15,000 
+Berkshire Hathaway Inc. New Common Stock (BRK.B)  [ST]S (partial) 01/25/2024 02/01/2024 $1,001 - $15,000 
+Bitcoin  [CT] S 02/05/2024 02/05/2024 $250,001 - $500,000 
+Ethereum  [CT] S 02/05/2024 02/05/2024 $100,001 - $250,000 
+Litecoin  [CT] S 02/05/2024 02/05/2024 $15,001 - $50,000 
+Microsoft Corporation - Common Stock (MSFT)  [ST]S (partial) 01/25/2024 02/01/2024 $1,001 - $15,000 
+Microsoft Corporation - Common Stock (MSFT)  [ST]S (partial) 01/25/2024 02/01/2024 $1,001 - $15,000 

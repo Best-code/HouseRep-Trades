@@ -1,0 +1,4 @@
+SP U.S Treasury Bills  [GS] S (partial) 09/21/2023 09/30/2023 $100,001 - $250,000 
+SP U.S Treasury Bills  [GS] P 09/25/2023 09/30/2023 $100,001 - $250,000 
+SP U.S Treasury Bills  [GS] S (partial) 09/21/2023 09/30/2023 $500,001 - $1,000,000 
+SP U.S Treasury Bills  [GS] P 09/25/2023 09/30/2023 $500,001 - $1,000,000 

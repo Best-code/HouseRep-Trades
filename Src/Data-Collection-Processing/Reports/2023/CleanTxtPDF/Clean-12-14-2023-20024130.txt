@@ -1,0 +1,10 @@
+SP CA UNIV REV  [GS] S 11/01/2023 11/30/2023 $500,001 - $1,000,000 
+SP Los Angeles CA GO UTX  [GS] P 11/08/2023 11/30/2023 $500,001 - $1,000,000 
+SP Lynett Capital Partners V, LP  [OT] P 11/08/2023 11/30/2023 $100,001 - $250,000 
+
+
+SP U.S Treasury Bills  [GS] S (partial) 11/02/2023 11/30/2023 $500,001 - $1,000,000 
+SP U.S Treasury Bills  [GS] P 11/08/2023 11/30/2023 $500,001 - $1,000,000 
+SP U.S Treasury Bills  [GS] P 11/17/2023 11/30/2023 $500,001 - $1,000,000 
+SP U.S Treasury Bills  [GS] P 11/20/2023 11/30/2023 $250,001 - $500,000 
+TypeDate Notification DateAmount Cap . Gains > 

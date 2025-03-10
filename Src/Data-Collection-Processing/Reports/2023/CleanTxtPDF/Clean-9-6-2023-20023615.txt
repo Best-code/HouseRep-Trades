@@ -1,0 +1,10 @@
+SP Ford Motor Company (F)  [ST] S 08/16/2023 09/03/2023 $15,001 - $50,000 
+
+SP Northwest Natural Holding Company (NWN)  [ST]P 08/15/2023 08/22/2023 $1,001 - $15,000 
+
+SP Sysco Corporation (SYY)  [ST] P 08/23/2023 09/03/2023 $1,001 - $15,000 
+
+SP Sysco Corporation (SYY)  [ST] P 08/24/2023 09/03/2023 $1,001 - $15,000 
+
+US Treasury Bill Due 01/11/24  [GS] P 08/25/2023 09/03/2023 $15,001 - $50,000 
+US Treasury Bill Due 02/22/24  [GS] P 08/25/2023 09/03/2023 $15,001 - $50,000 

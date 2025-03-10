@@ -1,0 +1,27 @@
+American Express Company (AXP) [ST]S 01/23/2023 01/30/2023 $1,001 - $15,000 
+American Express Company (AXP) [ST]S 01/23/2023 01/30/2023 $1,001 - $15,000 
+American Express Company (AXP) [ST]S 01/23/2023 01/30/2023 $50,001 - $100,000 
+Apollo Global Management, Inc. (APO)  [ST]S 01/23/2023 01/30/2023 $1,001 - $15,000 
+Apollo Global Management, Inc. (APO)  [ST]S 01/23/2023 01/30/2023 $1,001 - $15,000 
+Apollo Global Management, Inc. (APO)  [ST]S 01/23/2023 01/30/2023 $100,001 - $250,000 
+Biogen Inc. (BIIB)  [ST] S 01/23/2023 01/30/2023 $15,001 - $50,000 
+Blackstone Inc. (BX)  [ST] S 01/23/2023 01/30/2023 $50,001 -Filing ID #20022380ID OwnerAsset Transaction TypeDate Notification DateAmount Cap . Gains > $100,000 
+Coherus BioSciences, Inc. (CHRS) [ST]S 01/23/2023 01/30/2023 $15,001 - $50,000 
+Coinbase Global, Inc. - Class A (COIN)  [ST]S 12/20/2022 12/27/2022 $1,001 - $15,000 
+COMPASS Pathways Plc - American Depository Shares (CMPS)  [ST]S 01/23/2023 01/30/2023 $1,001 - $15,000 
+JD.com, Inc. - American Depositary Shares (JD)  [ST]S 04/22/2022 04/29/2022 $1,001 - $15,000 
+KE Holdings Inc American Depositary Shares (BEKE)  [ST]S 06/24/2022 07/01/2022 $15,001 - $50,000 
+KKR & Co. Inc. (KKR)  [ST] S 01/23/2023 01/30/2023 $15,001 - $50,000 
+Starbucks Corporation (SBUX)  [ST] S 01/23/2023 01/30/2023 $1,001 - $15,000 
+Starbucks Corporation (SBUX)  [ST] S 01/23/2023 01/30/2023 $1,001 - $15,000 
+Starbucks Corporation (SBUX)  [ST] S 01/23/2023 01/30/2023 $15,001 - $50,000 
+Tencent Holdings Limited Unsponsored ADR Representing B Shares (TCEHY)  [ST]S 04/22/2022 04/29/2022 $1,001 - $15,000 
+Tencent Music Entertainment Group American Depositary Shares, eachS 04/22/2022 04/29/2022 $1,001 - $15,000ID OwnerAsset Transaction TypeDate Notification DateAmount Cap . Gains > representing two Class A Ordinary Shares (TME)  [ST] 
+Tesla, Inc. (TSLA)  [ST] S 08/01/2022 08/08/2022 $50,001 - $100,000 
+Tesla, Inc. (TSLA)  [ST] S 01/23/2023 01/30/2023 $1,001 - $15,000 
+Tesla, Inc. (TSLA)  [ST] S 01/23/2023 01/30/2023 $1,001 - $15,000 
+The Carlyle Group Inc. (CG)  [ST] S (partial) 01/23/2023 01/30/2023 $1,001 - $15,000 
+The Carlyle Group Inc. (CG)  [ST] S (partial) 01/23/2023 01/30/2023 $15,001 - $50,000 
+The Carlyle Group Inc. (CG)  [ST] S 01/23/2023 01/30/2023 $15,001 - $50,000 
+Walmart Inc. (WMT)  [ST] S 01/23/2023 01/30/2023 $1,001 - $15,000 
+Walmart Inc. (WMT)  [ST] S 01/23/2023 01/30/2023 $1,001 - $15,000 

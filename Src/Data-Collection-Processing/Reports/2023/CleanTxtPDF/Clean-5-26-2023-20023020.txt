@@ -1,0 +1,64 @@
+Adobe Inc. (ADBE)  [ST] P 11/02/2021 11/02/2021 $1,001 - $15,000 
+Adobe Inc. (ADBE)  [ST] P 03/08/2022 03/08/2022 $1,001 - $15,000 
+Alphabet Inc. - Class A (GOOGL)  [ST] P 03/08/2022 03/08/2022 $1,001 - $15,000 
+Amazon.com, Inc. (AMZN)  [ST] P 03/08/2022 03/08/2022 $1,001 - $15,000 
+Appalachian Power Co Sr Note  [CS] P 04/26/2023 04/26/2023 $1,001 - $15,000 
+
+Apple Inc. (AAPL)  [ST] P 03/08/2022 03/08/2022 $1,001 - $15,000 
+AT&T Inc. (T)  [ST] P 03/17/2023 03/17/2023 $1,001 - $15,000 
+AT&T Inc. Global Note  [CS] P 04/26/2023 04/26/2023 $1,001 - $15,000 
+
+TypeDate Notification DateAmount Cap . Gains > BlackRock, Inc. (BLK)  [ST] P 03/08/2022 03/08/2022 $1,001 - $15,000 
+BlackRock, Inc. (BLK)  [ST] P 11/02/2021 11/02/2021 $1,001 - $15,000 
+Booking Holdings Inc. (BKNG)  [ST] P 03/08/2022 03/08/2022 $1,001 - $15,000 
+Booking Holdings Inc. (BKNG)  [ST] S (partial) 03/17/2023 03/17/2023 $1,001 - $15,000 
+Broadcom Inc. (AVGO)  [ST] P 08/05/2022 08/05/2022 $1,001 - $15,000 
+Citigroup Inc. Senior Note  [CS] P 04/26/2023 04/26/2023 $1,001 - $15,000 
+
+Danaher Corporation (DHR)  [ST] P 09/20/2022 09/20/2022 $1,001 - $15,000 
+Deere & Company (DE)  [ST] S (partial) 03/17/2023 03/17/2023 $1,001 - $15,000 
+Deere & Company (DE)  [ST] P 03/08/2022 03/08/2022 $1,001 - $15,000 
+Deere & Company (DE)  [ST] P 11/02/2021 11/02/2021 $1,001 - $15,000 
+Eli Lilly and Company (LLY)  [ST] P 03/08/2022 03/08/2022 $1,001 - $15,000 
+Eli Lilly and Company (LLY)  [ST] S (partial) 08/05/2022 08/05/2022 $1,001 - $15,000 
+Equity Residential Common Shares of P 04/26/2023 04/26/2023 $1,001 - $15,000ID OwnerAsset Transaction TypeDate Notification DateAmount Cap . Gains > Beneficial Interest (EQR)  [ST] 
+Estee Lauder Companies, Inc. (EL) [ST]P 08/05/2022 08/05/2022 $1,001 - $15,000 
+Fiserv, Inc. (FISV)  [ST] P 03/08/2022 03/08/2022 $1,001 - $15,000 
+Fortinet, Inc. (FTNT)  [ST] P 03/08/2022 03/08/2022 $1,001 - $15,000 
+Honeywell International Inc. (HON) [ST]P 04/26/2023 04/26/2023 $1,001 - $15,000 
+Intuit Inc. (INTU)  [ST] P 04/26/2023 04/26/2023 $1,001 - $15,000 
+Linde plc Ordinary Shares (LIN)  [ST] P 08/05/2022 08/05/2022 $1,001 - $15,000 
+Lowe's Companies, Inc. (LOW)  [ST] P 03/08/2022 03/08/2022 $1,001 - $15,000 
+Lowe's Companies, Inc. (LOW)  [ST] P 11/02/2021 11/02/2021 $1,001 - $15,000 
+Marathon Petroleum Corporation (MPC)  [ST]S (partial) 08/05/2022 08/05/2022 $1,001 - $15,000 
+Marathon Petroleum Corporation (MPC)  [ST]P 03/08/2022 03/08/2022 $1,001 - $15,000 
+Marathon Petroleum Corporation (MPC)  [ST]S (partial) 03/17/2023 03/17/2023 $1,001 - $15,000 
+TypeDate Notification DateAmount Cap . Gains > Microsoft Corporation (MSFT)  [ST] P 03/08/2022 03/08/2022 $1,001 - $15,000 
+Moody's Corporation (MCO)  [ST] P 11/02/2021 11/02/2021 $1,001 - $15,000 
+Moody's Corporation (MCO)  [ST] P 03/08/2022 03/08/2022 $1,001 - $15,000 
+Netflix, Inc. (NFLX)  [ST] P 03/08/2022 03/08/2022 $1,001 - $15,000 
+NextEra Energy, Inc. (NEE)  [ST] P 03/08/2022 03/08/2022 $1,001 - $15,000 
+NVIDIA Corporation (NVDA)  [ST] P 03/08/2022 03/08/2022 $1,001 - $15,000 
+NVIDIA Corporation (NVDA)  [ST] P 11/02/2021 11/02/2021 $1,001 - $15,000 
+NVIDIA Corporation (NVDA)  [ST] S (partial) 04/26/2023 04/26/2023 $1,001 - $15,000 
+PayPal Holdings, Inc. (PYPL)  [ST] P 03/08/2022 03/08/2022 $1,001 - $15,000 
+Procter & Gamble Company (PG)  [ST] P 03/08/2022 03/08/2022 $1,001 - $15,000 
+Procter & Gamble Company (PG)  [ST] P 11/02/2021 11/02/2021 $1,001 - $15,000 
+Salesforce, Inc. (CRM)  [ST] P 08/05/2022 08/05/2022 $1,001 - $15,000 
+ServiceNow, Inc. (NOW)  [ST] P 04/26/2023 04/26/2023 $1,001 - $15,000 
+TypeDate Notification DateAmount Cap . Gains > Starbucks Corporation (SBUX)  [ST] S (partial) 03/17/2023 03/17/2023 $1,001 - $15,000 
+Starbucks Corporation (SBUX)  [ST] P 03/08/2022 03/08/2022 $1,001 - $15,000 
+Tesla, Inc. (TSLA)  [ST] P 03/17/2023 03/17/2023 $1,001 - $15,000 
+Thermo Fisher Scientific Inc (TMO) [ST]P 03/08/2022 03/08/2022 $1,001 - $15,000 
+Thermo Fisher Scientific Inc (TMO) [ST]P 11/02/2021 11/02/2021 $1,001 - $15,000 
+Truist Financial Corporation (TFC) [ST]P 04/26/2023 04/26/2023 $1,001 - $15,000 
+Ulta Beauty, Inc. (ULTA)  [ST] S (partial) 09/20/2022 09/20/2022 $1,001 - $15,000 
+Ulta Beauty, Inc. (ULTA)  [ST] S (partial) 03/17/2023 03/17/2023 $1,001 - $15,000 
+Ulta Beauty, Inc. (ULTA)  [ST] P 03/08/2022 03/08/2022 $1,001 - $15,000 
+Union Pacific Corporation (UNP)  [ST] P 03/08/2022 03/08/2022 $1,001 - $15,000 
+UnitedHealth Group Incorporated Common Stock (UNH)  [ST]P 08/05/2022 08/05/2022 $1,001 - $15,000 
+V.F. Corporation (VFC)  [ST] P 04/26/2023 04/26/2023 $1,001 - $15,000 
+TypeDate Notification DateAmount Cap . Gains > Verizon Communications Inc. (VZ) [ST]P 03/17/2023 03/17/2023 $1,001 - $15,000 
+Visa Inc. (V)  [ST] P 03/08/2022 03/08/2022 $1,001 - $15,000 
+Visa Inc. (V)  [ST] P 11/02/2021 11/02/2021 $1,001 - $15,000 
+Zoetis Inc. Class A (ZTS)  [ST] P 03/08/2022 03/08/2022 $1,001 - $15,000 

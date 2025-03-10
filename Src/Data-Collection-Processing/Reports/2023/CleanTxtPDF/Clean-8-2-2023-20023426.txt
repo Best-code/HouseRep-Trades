@@ -1,0 +1,7 @@
+2000092669 DNB ASA SP/ADR (DNBBY)  [ST] S 03/16/2022 03/16/2022 $1,001 - $15,000 
+
+
+ticker symbol DNHBY in reporting this transaction was a data entry error. The correct ticker symbol is DNBBY. DNBBY is OTC stock, and was previously not listed in the system’s stock catalog. 2000092643 NN GROUP NV UNSP/ADR (NNGRY)  [ST]S 03/16/2022 03/16/2022 $1,001 - $15,000 
+
+
+ticker symbol NNGPF in reporting this transaction was a data entry error. The correct ticker symbol is NNGRY. NNGRY is OTC stock, and was previously not listed in the system’s stock catalog. 

@@ -1,0 +1,6 @@
+AbbVie Inc. (ABBV)  [ST] S 12/08/2023 12/12/2023 $1,001 - $15,000 
+Blackstone Inc. (BX)  [ST] S (partial) 12/08/2023 12/11/2023 $1,001 - $15,000 
+Blackstone Inc. (BX)  [ST] P 12/08/2023 12/12/2023 $15,001 - $50,000 
+CME Group Inc. - Class A (CME)  [ST] S 12/06/2023 12/08/2023 $15,001 - $50,000 
+Palo Alto Networks, Inc. (PANW) [ST]P 12/08/2023 12/12/2023 $15,001 - $50,000 
+Valero Energy Corporation (VLO) [ST]P 12/08/2023 12/12/2023 $15,001 - $50,000 

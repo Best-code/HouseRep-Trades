@@ -1,0 +1,84 @@
+JT Advanced Micro Devices, Inc. (AMD) [ST]S (partial) 12/20/2023 01/04/2024 $1,001 - $15,000 
+
+JT Allegro MicroSystems, Inc. (ALGM) [ST]S (partial) 12/11/2023 01/04/2024 $1,001 - $15,000 
+
+JT Alnylam Pharmaceuticals, Inc. (ALNY)  [ST]S 12/11/2023 01/04/2024 $1,001 - $15,000 
+
+JT Alphabet Inc. - Class C Capital Stock (GOOG)  [ST]S (partial) 12/01/2023 01/04/2024 $1,001 - $15,000 
+
+JT BioNTech SE - American Depositary Shares (BNTX)  [ST]P 12/06/2023 01/04/2024 $1,001 - $15,000 
+
+JT BioNTech SE - American Depositary Shares (BNTX)  [ST]P 12/05/2023 01/04/2024 $1,001 - $15,000 
+
+TypeDate Notification DateAmount Cap . Gains > JT BioNTech SE - American Depositary Shares (BNTX)  [ST]P 12/07/2023 01/04/2024 $1,001 - $15,000 
+
+JT Celsius Holdings, Inc. (CELH)  [ST] P 12/04/2023 01/04/2024 $1,001 - $15,000 
+
+JT Chart Industries, Inc. (GTLS)  [ST] S (partial) 12/11/2023 01/04/2024 $1,001 - $15,000 
+
+JT ConocoPhillips (COP)  [ST] S (partial) 12/20/2023 01/04/2024 $1,001 - $15,000 
+
+JT Credicorp Ltd. (BAP)  [ST] S 12/11/2023 01/04/2024 $1,001 - $15,000 
+
+JT D.R. Horton, Inc. (DHI)  [ST] P 12/11/2023 01/04/2024 $1,001 - $15,000 
+
+JT Dbs Group Holdings Ltd Ord American Depositary Shares (DBSDY) [ST]P 12/21/2023 01/04/2024 $1,001 - $15,000 
+
+JT Edwards Lifesciences Corporation (EW)  [ST]P 12/11/2023 01/04/2024 $1,001 - $15,000 
+
+JT ENN Energy Holdings Ltd Unsponsored ADR (XNGSY)  [ST]S 12/11/2023 01/04/2024 $1,001 - $15,000 
+
+JT Fanuc Corporation Unsponsored ADR (FANUY)  [ST]S 12/06/2023 01/04/2024 $1,001 - $15,000ID OwnerAsset Transaction TypeDate Notification DateAmount Cap . Gains > 
+
+JT Grand Canyon Education, Inc. (LOPE) [ST]S (partial) 12/20/2023 01/04/2024 $1,001 - $15,000 
+
+JT HAIER SMART HOME U/ADR (HSHCY)  [ST]S 12/11/2023 01/04/2024 $1,001 - $15,000 
+
+JT Helen of Troy Limited (HELE)  [ST] S (partial) 12/11/2023 01/04/2024 $1,001 - $15,000 
+
+JT Houlihan Lokey, Inc. Class A (HLI) [ST]S (partial) 12/20/2023 01/04/2024 $1,001 - $15,000 
+
+JT Intapp, Inc. (INTA)  [ST] P 12/20/2023 01/04/2024 $1,001 - $15,000 
+
+JT Kering Unsponsored ADR (PPRUY) [ST]S 12/05/2023 01/04/2024 $1,001 - $15,000 
+
+JT Lonza Group Ag Zuerich Unsponsored ADR (LZAGY)  [ST]S (partial) 12/05/2023 01/04/2024 $1,001 - $15,000 
+
+JT Lonza Group Ag Zuerich Unsponsored ADR (LZAGY)  [ST]S 12/21/2023 01/04/2024 $1,001 - $15,000 
+
+JT Lowe's Companies, Inc. (LOW)  [ST] S (partial) 12/11/2023 01/04/2024 $1,001 - $15,000 
+TypeDate Notification DateAmount Cap . Gains > 
+JT Mastercard Incorporated (MA)  [ST] S (partial) 12/20/2023 01/04/2024 $1,001 - $15,000 
+
+JT Monster Beverage Corporation (MNST)  [ST]S (partial) 12/04/2023 01/04/2024 $1,001 - $15,000 
+
+JT Northrop Grumman Corporation (NOC)  [ST]P 12/29/2023 01/04/2024 $15,001 - $50,000 
+
+JT OceanFirst Financial Corp. (OCFC) [ST]S (partial) 12/11/2023 01/04/2024 $1,001 - $15,000 
+
+JT ON Semiconductor Corporation (ON) [ST]S 12/11/2023 01/04/2024 $1,001 - $15,000 
+
+JT Oracle Corporation (ORCL)  [ST] S (partial) 12/14/2023 01/04/2024 $1,001 - $15,000 
+
+JT Patterson-UTI Energy, Inc. (PTEN) [ST]S (partial) 12/11/2023 01/04/2024 $1,001 - $15,000 
+
+JT Paycor HCM, Inc. (PYCR)  [ST] S (partial) 12/11/2023 01/04/2024 $1,001 - $15,000 
+
+JT Ping An Insurance (PNGAY)  [ST] S 12/11/2023 01/04/2024 $1,001 - $15,000 
+
+TypeDate Notification DateAmount Cap . Gains > JT Salesforce, Inc. (CRM)  [ST] P 12/01/2023 01/04/2024 $1,001 - $15,000 
+
+JT Schneider Electric SE Unsponsored ADR (SBGSY)  [ST]S (partial) 12/05/2023 01/04/2024 $1,001 - $15,000 
+
+JT Shiseido Co Ltd Ord American Depositary Shares (SSDOY)  [ST]S 12/11/2023 01/04/2024 $1,001 - $15,000 
+
+JT Shoals Technologies Group, Inc. - Class A (SHLS)  [ST]S 12/11/2023 01/04/2024 $1,001 - $15,000 
+
+JT Sony Group Corporation American Depositary Shares (SONY)  [ST]P 12/06/2023 01/04/2024 $1,001 - $15,000 
+
+JT The Vita Coco Company, Inc. (COCO) [ST]P 12/01/2023 01/04/2024 $1,001 - $15,000 
+
+JT Tri Pointe Homes, Inc. (TPH)  [ST] P 12/20/2023 01/04/2024 $1,001 - $15,000 
+
+JT UMB Financial Corporation (UMBF) [ST]P 12/20/2023 01/04/2024 $1,001 - $15,000 
+

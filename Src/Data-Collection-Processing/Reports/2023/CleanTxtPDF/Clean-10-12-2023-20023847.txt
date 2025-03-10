@@ -1,0 +1,50 @@
+JT Alphabet Inc. - Class C Capital Stock (GOOG)  [ST]S (partial) 09/11/2023 09/15/2023 $50,001 - $100,000 
+
+JT Apple Inc. (AAPL)  [ST] S (partial) 09/11/2023 09/15/2023 $15,001 - $50,000 
+
+JT Berkshire Hathaway Inc. New (BRK.B)  [ST]S (partial) 09/11/2023 09/15/2023 $15,001 - $50,000 
+
+JT Cisco Systems, Inc. (CSCO)  [ST] S (partial) 09/11/2023 09/15/2023 $50,001 - $100,000 
+
+JT Discover Financial Services (DFS) [ST]S 09/11/2023 09/15/2023 $15,001 - $50,000 
+
+JT Fidelity Mid-Cap Stock Fund (FMCSX)  [AB]S 09/11/2023 09/15/2023 $1,001 - $15,000 
+
+TypeDate Notification DateAmount Cap . Gains > 
+JT Fidelity Money Market Fund - Premium Class  [CS]S 09/11/2023 09/15/2023 $50,001 - $100,000 
+
+
+secu rities. JT Home Depot, Inc. (HD)  [ST] S (partial) 09/11/2023 09/15/2023 $15,001 - $50,000 
+
+JT Invesco QQQ Trust, Series 1 (QQQ) [ST]S (partial) 09/11/2023 09/15/2023 $1,001 - $15,000 
+
+JT iShares Core S&P Small-Cap ETF (IJR)  [ST]S 09/11/2023 09/15/2023 $1,001 - $15,000 
+
+JT Johnson & Johnson (JNJ)  [ST] S (partial) 09/11/2023 09/15/2023 $15,001 - $50,000 
+
+JT JP Morgan Chase & Co. (JPM)  [ST] S (partial) 09/11/2023 09/15/2023 $15,001 - $50,000 
+
+JT McDonald's Corporation (MCD)  [ST] S (partial) 09/11/2023 09/15/2023 $15,001 - $50,000 
+
+JT Merck & Company, Inc. Common Stock (MRK)  [ST]S (partial) 09/11/2023 09/15/2023 $15,001 - $50,000 
+
+JT Microsoft Corporation (MSFT)  [ST] S (partial) 09/11/2023 09/15/2023 $15,001 -ID OwnerAsset Transaction TypeDate Notification DateAmount Cap . Gains > $50,000 
+
+JT NextEra Energy, Inc. (NEE)  [ST] S 09/11/2023 09/15/2023 $15,001 - $50,000 
+
+JT Pepsico, Inc. (PEP)  [ST] S (partial) 09/11/2023 09/15/2023 $15,001 - $50,000 
+
+JT Pfizer, Inc. (PFE)  [ST] S 09/11/2023 09/15/2023 $1,001 - $15,000 
+
+JT Procter & Gamble Company (PG)  [ST] S (partial) 09/11/2023 09/15/2023 $15,001 - $50,000 
+
+JT Starbucks Corporation (SBUX)  [ST] S (partial) 09/11/2023 09/15/2023 $15,001 - $50,000 
+
+JT United Parcel Service, Inc. (UPS)  [ST] S (partial) 09/11/2023 09/15/2023 $15,001 - $50,000 
+
+JT UnitedHealth Group Incorporated Common Stock (UNH)  [ST]S 09/11/2023 09/15/2023 $15,001 - $50,000 
+
+JT Visa Inc. (V)  [ST] S (partial) 09/11/2023 09/15/2023 $15,001 - $50,000 
+
+JT Walmart Inc. (WMT)  [ST] S (partial) 09/11/2023 09/15/2023 $15,001 - $50,000ID OwnerAsset Transaction TypeDate Notification DateAmount Cap . Gains > 
+

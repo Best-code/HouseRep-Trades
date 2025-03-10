@@ -1,0 +1,52 @@
+JT Apple Inc. (AAPL)  [ST] S (partial) 04/19/2023 04/24/2023 $1,001 - $15,000 
+
+Comcast Corporation - Class A (CMCSA)  [ST]P 04/19/2023 04/24/2023 $50,001 - $100,000 
+
+Comcast Corporation - Class A (CMCSA)  [ST]P 04/19/2023 04/24/2023 $1,001 - $15,000 
+
+Costco Wholesale Corporation (COST)  [ST]P 04/19/2023 04/24/2023 $1,001 - $15,000 
+
+Costco Wholesale Corporation (COST)  [ST]P 04/19/2023 04/24/2023 $50,001 - $100,000 
+
+SP FCNTX  [OT] P 04/19/2023 04/24/2023 $1,001 - $15,000 
+
+
+TypeDate Notification DateAmount Cap . Gains > 
+SP FFRHX  [OT] P 04/19/2023 04/24/2023 $1,001 - $15,000 
+
+
+
+SP Fidelity Quality Factor ETF (FQAL) [ST]P 04/19/2023 04/24/2023 $1,001 - $15,000 
+
+JT FMCSX  [OT] S (partial) 04/19/2023 04/24/2023 $1,001 - $15,000 
+
+
+
+FSKAX  [OT] S 04/19/2023 04/24/2023 $50,001 - $100,000 
+
+
+
+FSKAX  [OT] S 04/19/2023 04/24/2023 $1,001 - $15,000 
+
+
+
+JT Invesco QQQ Trust, Series 1 (QQQ) [ST]S (partial) 04/19/2023 04/24/2023 $1,001 - $15,000 
+
+SP iShares Core S&P 500 ETF (IVV)  [ST] P 04/19/2023 04/24/2023 $1,001 - $15,000 
+
+JT iShares Core S&P Small-Cap ETF (IJR)  [ST]S (partial) 04/19/2023 04/24/2023 $1,001 - $15,000ID OwnerAsset Transaction TypeDate Notification DateAmount Cap . Gains > 
+
+LSYIX  [OT] P 04/19/2023 04/24/2023 $50,001 - $100,000 
+
+
+
+LSYIX  [OT] P 04/19/2023 04/24/2023 $1,001 - $15,000 
+
+
+
+LUBYX  [OT] S (partial) 04/19/2023 04/24/2023 $1,001 - $15,000 
+
+
+
+JT Starbucks Corporation (SBUX)  [ST] S (partial) 04/19/2023 04/24/2023 $1,001 - $15,000 
+

@@ -1,0 +1,102 @@
+JT Allete, Inc. (ALE)  [ST] S 01/28/2025 02/07/2025 $1,001 - $15,000 
+
+JT American Tower Corporation (AMT) [ST]S 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Boeing Company (BA)  [ST] P 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Bristol-Myers Squibb Company Common Stock (BMY)  [ST]P 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Broadcom Inc. - Common Stock (AVGO)  [ST]S (partial) 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Charles River Laboratories International, Inc. Common Stock (CRL)  [ST]P 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+TypeDate Notification DateAmount Cap . Gains > JT Chubb Limited Common Stock (CB) [ST]S (partial) 01/24/2025 02/11/2025 $1,001 - $15,000 
+
+JT ConAgra Brands, Inc. Common Stock (CAG)  [ST]S (partial) 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT ConocoPhillips Common Stock (COP) [ST]P 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Constellation Brands, Inc. Common Stock (STZ)  [ST]S (partial) 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT CoStar Group, Inc. - Common Stock (CSGP)  [ST]S 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT CVS Health Corporation Common Stock (CVS)  [ST]S (partial) 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Danaher Corporation Common Stock (DHR)  [ST]S 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Dell Technologies Inc. Class C Common Stock (DELL)  [ST]S 01/28/2025 02/07/2025 $1,001 - $15,000 
+
+JT Dollar General Corporation Common Stock (DG)  [ST]P 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+TypeDate Notification DateAmount Cap . Gains > JT Dollar Tree, Inc. - Common Stock (DLTR)  [ST]P 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Dow Inc. Common Stock (DOW)  [ST] P 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Enphase Energy, Inc. - Common Stock (ENPH)  [ST]P 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Estee Lauder Companies, Inc. (EL) [ST]P 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Eversource Energy (ES)  [ST] P 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Goldman Sachs Group, Inc. (GS)  [ST] P 01/24/2025 02/11/2025 $1,001 - $15,000 
+
+JT Hasbro, Inc. - Common Stock (HAS) [ST]P 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Intuit Inc. - Common Stock (INTU) [ST]S 01/28/2025 02/07/2025 $1,001 - $15,000 
+
+JT Juniper Networks, Inc. Common Stock (JNPR)  [ST]P 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Lamb Weston Holdings, Inc. Common Stock (LW)  [ST]S 01/15/2025 02/07/2025 $1,001 - $15,000ID OwnerAsset Transaction TypeDate Notification DateAmount Cap . Gains > 
+
+JT MarketAxess Holdings, Inc. - Common Stock (MKTX)  [ST]P 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Merck & Company, Inc. Common Stock (MRK)  [ST]P 01/17/2025 02/11/2025 $1,001 - $15,000 
+
+JT Moderna, Inc. - Common Stock (MRNA)  [ST]S 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Monster Beverage Corporation - Common Stock (MNST)  [ST]S (partial) 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Morgan Stanley Common Stock (MS) [ST]S (partial) 01/24/2025 02/11/2025 $1,001 - $15,000 
+
+JT MSCI Inc. Common Stock (MSCI) [ST]P 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT NextEra Energy, Inc. Common Stock (NEE)  [ST]P 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Nike, Inc. Common Stock (NKE)  [ST] S 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Palantir Technologies Inc. - Class A Common Stock (PLTR)  [ST]P 01/15/2025 02/07/2025 $1,001 - $15,000ID OwnerAsset Transaction TypeDate Notification DateAmount Cap . Gains > 
+
+JT Pepsico, Inc. (PEP)  [ST] P 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Pepsico, Inc. (PEP)  [ST] S 01/28/2025 02/07/2025 $1,001 - $15,000 
+
+JT Pfizer, Inc. Common Stock (PFE)  [ST] S (partial) 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT PPG Industries, Inc. Common Stock (PPG)  [ST]S (partial) 01/13/2025 02/11/2025 $1,001 - $15,000 
+
+JT PPG Industries, Inc. Common Stock (PPG)  [ST]S 01/27/2025 02/11/2025 $1,001 - $15,000 
+
+JT Progressive Corporation (PGR)  [ST] P 01/24/2025 02/11/2025 $1,001 - $15,000 
+
+JT Qorvo, Inc. - Common Stock (QRVO) [ST]S 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Regeneron Pharmaceuticals, Inc. - Common Stock (REGN)  [ST]P 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT SBA Communications Corporation - Class A Common Stock (SBAC)  [ST]P 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+TypeDate Notification DateAmount Cap . Gains > JT Solventum Corporation Common Stock (SOLV)  [ST]S 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Super Micro Computer, Inc. - Common Stock (SMCI)  [ST]P 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT The Cigna Group Common Stock (CI) [ST]P 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT The Hershey Company Common Stock (HSY)  [ST]P 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Uber Technologies, Inc. Common Stock (UBER)  [ST]P 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Verizon Communications Inc. Common Stock (VZ)  [ST]S (partial) 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Walgreens Boots Alliance, Inc. - Common Stock (WBA)  [ST]P 01/15/2025 02/07/2025 $1,001 - $15,000 
+
+JT Walmart Inc. Common Stock (WMT) [ST]S (partial) 01/17/2025 02/11/2025 $1,001 - $15,000 
+
