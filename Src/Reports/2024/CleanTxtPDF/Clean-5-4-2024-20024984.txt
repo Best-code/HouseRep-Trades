@@ -1,0 +1,30 @@
+SP Blackstone Inc. Common Stock (BX) [ST]S (partial) 04/04/2024 05/03/2024 $1,001 - $15,000 
+
+SP Caterpillar, Inc. Common Stock (CAT) [ST]S (partial) 04/04/2024 05/03/2024 $1,001 - $15,000 
+
+SP Embraer S.A. Common Stock (ERJ) [ST]S (partial) 04/04/2024 05/03/2024 $1,001 - $15,000 
+
+SP Kroger Company (KR)  [ST] S 04/04/2024 05/03/2024 $1,001 - $15,000 
+
+SP Magna International, Inc. Common Stock (MGA)  [ST]S 04/04/2024 05/03/2024 $1,001 - $15,000 
+
+SP McKesson Corporation Common Stock (MCK)  [ST]S (partial) 04/04/2024 05/03/2024 $15,001 - $50,000 
+
+TypeDate Notification DateAmount Cap . Gains > SP Nike, Inc. Common Stock (NKE)  [ST] P 04/04/2024 05/03/2024 $15,001 - $50,000 
+
+SP Quest Diagnostics Incorporated Common Stock (DGX)  [ST]S 04/04/2024 05/03/2024 $1,001 - $15,000 
+
+SP RTX Corporation Common Stock (RTX)  [ST]P 04/04/2024 05/03/2024 $1,001 - $15,000 
+
+SP Southern Company (SO)  [ST] P 04/04/2024 05/03/2024 $15,001 - $50,000 
+
+SP TE Connectivity Ltd. New Switzerland Registered Shares (TEL)  [ST]S 04/04/2024 05/03/2024 $15,001 - $50,000 
+
+SP The Goldman Sachs Var 33 Due 02/24/33  [CS]P 04/04/2024 05/03/2024 $15,001 - $50,000 
+
+US Treasury Bill 24 Due 06/13/24 [GS]P 04/30/2024 05/03/2024 $15,001 - $50,000 
+US Treasury Bill24 Due 07/25/24 [GS]P 04/30/2024 05/03/2024 $15,001 - $50,000 
+SP Visa Inc. (V)  [ST] P 04/04/2024 05/03/2024 $1,001 - $15,000 
+
+SP Wells Fargo & Co Var 29 Due 07/25/29  [CS]P 04/04/2024 05/03/2024 $15,001 - $50,000ID OwnerAsset Transaction TypeDate Notification DateAmount Cap . Gains > 
+

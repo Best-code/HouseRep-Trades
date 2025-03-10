@@ -52,22 +52,23 @@ def DeseminateDocID(year: int):
                 # Regexes to locate certain patterns to help with substring extraction
                 NameStartDelim = re.search(r"\s+.*", line).start()
                 FilingTypeDelim = re.search(r"\b\w\b", line).start()
-                DateDelim = re.search(r"\d{1,2}/\d{1,2}/2025\s+", line) 
+                DateDelim = re.search(r"\d{1,2}/\d{1,2}/\d{4}\s+", line) 
 
                 # Substring extraction
                 repName = " ".join(line[NameStartDelim : FilingTypeDelim].strip().split())
+                
                 date = line[DateDelim.start():DateDelim.end()].strip()
                 docID = line[DateDelim.end():].strip()
 
                 # Population of the CSV of only type P and DocID with first number == 2
                 if(docID[0] == '2'):
-                    PopulateCleanUpCSV(fdFile, [repName, date, docID])
+                    PopulateCleanUpCSV(fdFile, [repName.replace(",", ""), date, docID])
                 
         fd.close()
 
 # Creates the CSV and stores it in Disclosures/{year}FD.csv
 def PopulateCleanUpCSV(file: str, content) -> None:
-    with open(f"Disclosures/{file}.csv", "a") as csv:
+    with open(f"{file}.csv", "a") as csv:
         csv.write(", ".join(content) + "\n")
         csv.close()
 
@@ -115,7 +116,7 @@ def PdfToText(year, pdfName):
 def AllPdfsToText(year: int) -> None:
     # PdfToText(2025, "1-1-2025-20026489.pdf")
     for pdf in os.listdir(f"Reports/{year}/PDF"):
-        PdfToText(2025, pdf)
+        PdfToText(year, pdf)
     
 
 # Check if each file contains a certain string
@@ -211,10 +212,7 @@ def RegexOutCleanText(year: int, txtFile: str) -> None:
             transactionType = line[re.search(transaction_pattern, line).start()+1 : re.search(transaction_pattern, line).end()].replace(",","").strip()
             date = line[re.search(date_pattern, line).start() : re.search(date_pattern, line).end()].replace(",","").strip()
             price = line[re.search(upto_price_pattern, line).end() : re.search(price_pattern, line).end()].replace(",","").strip()
-
-            print(txtFile)
             documentID = txtFile[re.search(documentID_pattern, txtFile).start():-4].replace(",","").strip()
-            print(documentID)
 
             GenerateStockCSV(year, txtFile, asset, transactionType, date, price, documentID)
         
@@ -234,9 +232,33 @@ def GenerateStockCSV(year, txtFile, asset, transactionType, date, price, documen
         txtCleaner.write(f"{transactionType}\n")
         txtCleaner.close()
 
-AllPdfsToText(2025)
-CleanAllTextFiles(2025)
-RegexOutAllCleanText(2025)
+def createDirectories(year):
+    # Define directory structure
+    base_dir = "Reports/" + str(year)
+    sub_dirs = ["PDF", "TxtPDF", "CleanTxtPDF", "CSVCleanTxtPDF"]
+
+    # Create base year directory
+    os.makedirs(base_dir, exist_ok=True)
+
+   # Create subdirectories only if they don't exist
+    for sub_dir in sub_dirs:
+        dir_path = os.path.join(base_dir, sub_dir)
+        if not os.path.exists(dir_path):
+            os.makedirs(dir_path)
+
+
+year = 2024
+
+# createDirectories(year)
+
+# GetFDReport(year)
+
+# DeseminateDocID(year)
+# GetAllTradeReports(year)
+
+AllPdfsToText(year)
+CleanAllTextFiles(year)
+RegexOutAllCleanText(year)
 
 
 # 1. GetFDReport

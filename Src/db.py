@@ -1,6 +1,8 @@
 import sqlite3, os
 
-con = sqlite3.connect("tutorial.db")
+year = 2024
+
+con = sqlite3.connect(f"{year}.db")
 cur = con.cursor()
 
 # Creating tables
@@ -58,8 +60,9 @@ def AddPersonToPerson(csv: list):
 def Clean(textIn: str) -> str:
     return textIn.replace("'","\"").strip()
 
-# AddAllTradesToTrade(2025)
-# AddAllPersonsToPerson(2025)
+
+# AddAllTradesToTrade(year)
+# AddAllPersonsToPerson(year)
 
 con.commit()
 con.close()

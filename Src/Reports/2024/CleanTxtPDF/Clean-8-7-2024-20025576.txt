@@ -1,0 +1,8 @@
+SP Cambrian CA SD  [GS] S 07/17/2024 07/31/2024 $500,001 - $1,000,000 
+SP Los Angeles CA IMPT Sch  [GS] P 07/23/2024 07/31/2024 $500,001 - $1,000,000 
+SP Marin CA MIN WTR UTIL  [GS] S 07/01/2024 07/31/2024 $50,001 - $100,000 
+SP Sacramento CA UTIL  [GS] P 07/10/2024 07/31/2024 $100,001 - $250,000 
+SP San Diego CA WTR UTIL  [GS] P 07/12/2024 07/31/2024 $50,001 - $100,000 
+SP Santa Clara CN CA HLTH  [GS] P 07/10/2024 07/31/2024 $15,001 - $50,000 
+SP U.S Treasury Bills  [GS] S (partial) 07/25/2024 07/31/2024 $250,001 - $500,000 
+SP U.S Treasury Bills  [GS] P 07/01/2024 07/31/2024 $500,001 - $1,000,000Filing ID #20025576ID OwnerAsset Transaction TypeDate Notification DateAmount Cap . Gains > 
