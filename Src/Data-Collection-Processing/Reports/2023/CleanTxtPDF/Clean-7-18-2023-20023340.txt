@@ -1,8 +1,0 @@
-SP AbbVie Inc. (ABBV)  [ST] P 07/06/2023 07/06/2023 $15,001 - $50,000 
-SP Alphabet Inc. - Class A (GOOGL)  [ST] P 07/06/2023 07/06/2023 $15,001 - $50,000 
-SP Amazon.com, Inc. (AMZN)  [ST] P 07/06/2023 07/06/2023 $15,001 - $50,000 
-SP Amazon.com, Inc. (AMZN)  [ST] S (partial) 07/06/2023 07/06/2023 $1,001 - $15,000 
-
-SP Berkshire Hathaway Inc. New (BRK.B)  [ST]P 07/06/2023 07/06/2023 $1,001 - $15,000 
-SP Chemours Company (CC)  [ST] P 07/06/2023 07/06/2023 $15,001 - $50,000 
-SP Chemours Company (CC)  [ST] S (partial) 07/06/2023 07/06/2023 $1,001 - $15,000 

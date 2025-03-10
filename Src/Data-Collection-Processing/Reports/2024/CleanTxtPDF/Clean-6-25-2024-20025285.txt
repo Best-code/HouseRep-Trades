@@ -1,5 +1,0 @@
-SP Los Angeles CA GO UTX  [GS] P 05/17/2024 05/31/2024 $50,001 - $100,000 
-SP Los Angeles County, CA Excise Tax [GS]P 05/20/2024 05/31/2024 $50,001 - $100,000 
-SP Oceanside CA IMPT SCH  [GS] P 05/22/2024 05/31/2024 $500,001 - $1,000,000 
-SP San Diego, CA IMPT SCH  [GS] P 05/20/2024 05/31/2024 $50,001 - $100,000 
-SP U.S Treasury Bills  [GS] S (partial) 05/16/2024 05/31/2024 $250,001 - $500,000 

@@ -1,9 +1,0 @@
-Advanced Micro Devices, Inc. (AMD) [ST]P 05/21/2024 05/21/2024 $1,001 - $15,000 
-Apple Inc. - Common Stock (AAPL) [ST]P 05/21/2024 05/21/2024 $1,001 - $15,000 
-Caterpillar, Inc. Common Stock (CAT) [ST]P 05/21/2024 05/21/2024 $1,001 - $15,000 
-Charles Schwab Corporation (SCHW) [ST]P 05/21/2024 05/21/2024 $1,001 - $15,000 
-Kinder Morgan, Inc. Common Stock (KMI)  [ST]P 05/21/2024 05/21/2024 $1,001 - $15,000 
-Southern Company (SO)  [ST] P 05/21/2024 05/21/2024 $1,001 - $15,000 
-US TREASURY BILL 06/18/2024 [GS]P 05/20/2024 05/21/2024 $100,001 - $250,000 
-US TREASURY BILL 08/13/2024 [GS]P 05/20/2024 05/22/2024 $100,001 - $250,000Filing ID #20025108ID OwnerAsset Transaction TypeDate Notification DateAmount Cap . Gains > 
-US TREASURY BILL 11/29/2024 [GS]P 05/20/2024 05/21/2024 $100,001 - $250,000 

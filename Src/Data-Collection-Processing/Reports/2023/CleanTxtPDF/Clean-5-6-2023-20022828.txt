@@ -1,3 +1,0 @@
-JT Illinois ST Sales Tax Rev JR Oblig 4.00 % Due Jun 15, 2030  [GS]P 04/25/2023 04/25/2023 $15,001 - $50,000 
-JT Sales Tax Securitization Corp 5.00 % Due Jan 1, 2031  [GS]P 04/18/2023 04/18/2023 $15,001 - $50,000 
-JT US Treasury Bill23 U S T Bill Due 10/19/23  [GS]P 04/20/2023 04/20/2023 $1,000,001 - $5,000,000 
