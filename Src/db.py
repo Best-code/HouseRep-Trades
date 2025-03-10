@@ -1,21 +1,23 @@
 import sqlite3, os
+from datetime import datetime
 
-year = 2024
+year = 2025
 
-con = sqlite3.connect(f"{year}.db")
+con = sqlite3.connect("Finance.db")
 cur = con.cursor()
 
 # Creating tables
-cur.execute("""
-CREATE TABLE IF NOT EXISTS person (
+personTableName = f"person_{int(year)}"  # Ensure year is integer to prevent SQL injection
+cur.execute(f"""
+CREATE TABLE IF NOT EXISTS {personTableName} (
     ID INTEGER PRIMARY KEY AUTOINCREMENT,
     Name TEXT NOT NULL,
     DocumentID TEXT UNIQUE NOT NULL
 )
 """)
 
-cur.execute("""
-CREATE TABLE IF NOT EXISTS trade (
+tradeTableName = f"trade_{int(year)}"  # Ensure year is integer to prevent SQL injection
+cur.execute(f"""CREATE TABLE IF NOT EXISTS {tradeTableName} (
     ID INTEGER PRIMARY KEY AUTOINCREMENT,
     AssetTicker TEXT NOT NULL,
     Price REAL NOT NULL,
@@ -23,8 +25,8 @@ CREATE TABLE IF NOT EXISTS trade (
     DocumentID TEXT NOT NULL,
     TransactionType TEXT NOT NULL,
     FOREIGN KEY (DocumentID) REFERENCES persons(DocumentID) ON DELETE CASCADE
-)
-""")
+)""")
+
 
 
 
@@ -41,9 +43,13 @@ def AddTradeToTrade(csv: list):
     date = Clean(csv[2])
     documentID = Clean(csv[3])
     transactionType = Clean(csv[4])
+
+    # Convert to SQLite format (YYYY-MM-DD)
+    date_obj = datetime.strptime(date, "%m/%d/%Y")
+    sqlite_date = date_obj.strftime("%Y-%m-%d")
     
-    cur.execute("INSERT INTO trade (AssetTicker, Price, DatePurchased, DocumentID, TransactionType) VALUES (?, ?, ?, ?, ?)",
-                (asset, uptoPrice, date, documentID, transactionType))
+    query = f"INSERT INTO {tradeTableName} (AssetTicker, Price, DatePurchased, DocumentID, TransactionType) VALUES (?, ?, ?, ?, ?)"
+    cur.execute(query,(asset, uptoPrice, sqlite_date, documentID, transactionType))
      
 def AddAllPersonsToPerson(year: int):
     with open(f"Disclosures/{year}FD.csv", 'r') as csv:
@@ -54,7 +60,8 @@ def AddPersonToPerson(csv: list):
     name = Clean(csv[0])
     docID = Clean(csv[2])
     
-    cur.execute("INSERT INTO person (Name, DocumentID) VALUES (?, ?)", (name, docID))
+    query = f"INSERT INTO {personTableName} (Name, DocumentID) VALUES (?, ?)"
+    cur.execute(query, (name, docID))
     
                     
 def Clean(textIn: str) -> str:
