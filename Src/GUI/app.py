@@ -45,7 +45,7 @@ class MainApp(QMainWindow):
         SealPixMap = QPixmap("Assets/Seal_of_the_house_of_representatives.png")
         self.ui.L_Seal.setPixmap(SealPixMap)
 
-        self.ui.TV_Table.verticalHeader().hide()
+        # self.ui.TV_Table.verticalHeader().hide()
 
 
     def onNameUpdate(self):
