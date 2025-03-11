@@ -1,31 +1,27 @@
 import sys
 from PySide6 import QtCore, QtGui, QtWidgets
+from PySide6.QtCore import Qt
 from PySide6.QtWidgets import QApplication, QMainWindow
 from PySide6.QtUiTools import QUiLoader
 from PySide6.QtGui import QPixmap
 
 from MainMenu import Ui_MainWindow
-import sqlite3, os
 from PySide6.QtSql import QSqlRelationalTableModel, QSqlDatabase, QSqlTableModel
 from datetime import datetime
-
-    
-
-    
 
 class MainApp(QMainWindow):
     def __init__(self):
         super().__init__()
         self.ui = Ui_MainWindow()  # Create UI instance
         self.ui.setupUi(self)  # Load UI
+
+        db = QSqlDatabase.addDatabase("QSQLITE")
+        db.setDatabaseName("/Users/melons/Documents/Code/Python/HOR-Trades/Src/Data-Collection-Processing/Finance.db")
         
         self.name = ""
         self.ticker = ""
         self.year = self.ui.DE_Year.date().toString("yyyy")
         
-        self.con = sqlite3.connect("/Users/melons/Documents/Code/Python/HOR-Trades/Src/Data-Collection-Processing/Finance.db")
-        self.cur = self.con.cursor()
-
         self.ui.LE_Name.textChanged.connect(self.onNameUpdate)
         self.ui.LE_Asset.textChanged.connect(self.onTickerUpdate)
         self.ui.DE_Year.dateChanged.connect(self.onYearUpdate)
@@ -53,31 +49,37 @@ class MainApp(QMainWindow):
     
     """
 
-    def generateQuery(self):
+    def setFilters(self, model: QSqlRelationalTableModel):
         self.tableName = f"trade_{self.year}"
-        baseQuery = f"SELECT * FROM {self.tableName}"
-        
-        # if(self.name != ""):
-        #     baseQuery += " WHERE Name LIKE '%{self.name}%'"
+        model.setTable("trade_2024")
         
         if(self.ticker != ""):
-            baseQuery += f" WHERE AssetTicker LIKE '%{self.ticker}%'"
-        
-        return baseQuery+";"
+            model.setFilter(f"AssetTicker LIKE '%{self.ticker}%'")
+    
+    def setColumnNames(self, model: QSqlRelationalTableModel):
+        column = 0
+        model.setHeaderData(column, Qt.Orientation.Horizontal, "ID")
+        if(model.columnCount() == 7):
+            column+1
+            model.setHeaderData(column, Qt.Orientation.Horizontal, "Name")
+            
+        model.setHeaderData(column+1, Qt.Orientation.Horizontal, "Asset")
+        model.setHeaderData(column+2, Qt.Orientation.Horizontal, "Price")
+        model.setHeaderData(column+3, Qt.Orientation.Horizontal, "Date")
+        model.setHeaderData(column+4, Qt.Orientation.Horizontal, "DocID")
+        model.setHeaderData(column+5, Qt.Orientation.Horizontal, "Type")
     
     def executeSQL(self):
-        db = QSqlDatabase.addDatabase("QSQLITE")
-        db.setDatabaseName("/Users/melons/Documents/Code/Python/HOR-Trades/Src/Data-Collection-Processing/Finance.db")
 
         model = QSqlRelationalTableModel()
-        model.setTable("trade_2024")
+        self.setFilters(model)
         model.select()
+        self.setColumnNames(model)
 
         self.ui.TV_Table.setModel(model)
         self.ui.TV_Table.resizeColumnsToContents()
         
 
-        # res = self.cur.execute(self.generateQuery())
 
          
  

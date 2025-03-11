@@ -15,10 +15,10 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QFont, QFontDatabase, QGradient, QIcon,
     QImage, QKeySequence, QLinearGradient, QPainter,
     QPalette, QPixmap, QRadialGradient, QTransform)
-from PySide6.QtWidgets import (QApplication, QDateEdit, QGridLayout, QHBoxLayout,
-    QHeaderView, QLabel, QLineEdit, QMainWindow,
-    QPushButton, QSizePolicy, QTableView, QVBoxLayout,
-    QWidget)
+from PySide6.QtWidgets import (QAbstractItemView, QApplication, QDateEdit, QGridLayout,
+    QHBoxLayout, QHeaderView, QLabel, QLineEdit,
+    QMainWindow, QPushButton, QSizePolicy, QTableView,
+    QVBoxLayout, QWidget)
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -246,6 +246,9 @@ class Ui_MainWindow(object):
         self.TV_Table = QTableView(self.MainBody)
         self.TV_Table.setObjectName(u"TV_Table")
         self.TV_Table.setGeometry(QRect(0, 0, 1536, 846))
+        self.TV_Table.setEditTriggers(QAbstractItemView.EditTrigger.NoEditTriggers)
+        self.TV_Table.setAlternatingRowColors(True)
+        self.TV_Table.setSortingEnabled(True)
 
         self.horizontalLayout_7.addWidget(self.MainBody)
 
