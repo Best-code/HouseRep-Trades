@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>980</width>
+    <height>845</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="font">
+    <font>
+     <family>Copperplate</family>
+     <pointsize>24</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+	font-family: Copperplate;
+	font-size: 24pt;
+	font-weight: normal;
+
+	background-color: black;
+}
+</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="SealWidget" native="true">
+        <property name="maximumSize">
+         <size>
+          <width>384</width>
+          <height>234</height>
+         </size>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="QLabel" name="L_Seal">
+           <property name="maximumSize">
+            <size>
+             <width>384</width>
+             <height>234</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="Assets/resources.qrc">:/newPrefix/Seal_of_the_house_of_representatives.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="HeaderBar" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>1920</width>
+          <height>234</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">*{
+	font-family: Copperplate;
+	font-size: 64pt;
+	font-weight: normal;
+}
+QWidget{
+background-color: #991916;
+}</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <property name="leftMargin">
+          <number>48</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>48</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_2">
+           <property name="maximumSize">
+            <size>
+             <width>1536</width>
+             <height>234</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Copperplate</family>
+             <pointsize>64</pointsize>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>House Of Representative Trades</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignmentFlag::AlignCenter</set>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_7">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="LeftSideBar" native="true">
+        <property name="maximumSize">
+         <size>
+          <width>384</width>
+          <height>846</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QWidget {
+	background-color: #19225F;
+}
+
+*[isFilterOption=&quot;true&quot;] {
+	background-color: rgba(255, 255, 255 , 25);
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 25px;
+}
+
+*[isFilterLabel=&quot;true&quot;] {
+		background-color: transparent;
+
+}</string>
+        </property>
+        <property name="id" stdset="0">
+         <string>LeftSideBar</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QWidget" name="OptionFrame" native="true">
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>24</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>24</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="Filters">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>336</width>
+                <height>54</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>Copperplate</family>
+                <pointsize>-1</pointsize>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size: 36px;
+
+</string>
+              </property>
+              <property name="text">
+               <string>Filters</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="FilterOption" native="true">
+              <property name="maximumSize">
+               <size>
+                <width>336</width>
+                <height>72</height>
+               </size>
+              </property>
+              <property name="isFilterOption" stdset="0">
+               <bool>true</bool>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_2">
+               <property name="spacing">
+                <number>18</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="L_Name">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>72</width>
+                   <height>72</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Name</string>
+                 </property>
+                 <property name="isFilterLabel" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="LE_Name"/>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="FilterOption_3" native="true">
+              <property name="maximumSize">
+               <size>
+                <width>336</width>
+                <height>72</height>
+               </size>
+              </property>
+              <property name="isFilterOption" stdset="0">
+               <bool>true</bool>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_4">
+               <property name="spacing">
+                <number>18</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="L_Asset">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>72</width>
+                   <height>72</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Asset</string>
+                 </property>
+                 <property name="isFilterLabel" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="LE_Asset"/>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="FilterOption_5" native="true">
+              <property name="maximumSize">
+               <size>
+                <width>336</width>
+                <height>72</height>
+               </size>
+              </property>
+              <property name="isFilterOption" stdset="0">
+               <bool>true</bool>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_6">
+               <property name="spacing">
+                <number>18</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="L_Year">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>72</width>
+                   <height>72</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Year</string>
+                 </property>
+                 <property name="isFilterLabel" stdset="0">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QDateEdit" name="DE_Year">
+                 <property name="minimumDateTime">
+                  <datetime>
+                   <hour>5</hour>
+                   <minute>0</minute>
+                   <second>0</second>
+                   <year>2023</year>
+                   <month>1</month>
+                   <day>1</day>
+                  </datetime>
+                 </property>
+                 <property name="maximumDate">
+                  <date>
+                   <year>2025</year>
+                   <month>12</month>
+                   <day>31</day>
+                  </date>
+                 </property>
+                 <property name="displayFormat">
+                  <string>yyyy</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="PB_Search">
+              <property name="maximumSize">
+               <size>
+                <width>336</width>
+                <height>72</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Search</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="MainBody" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>1536</width>
+          <height>846</height>
+         </size>
+        </property>
+        <widget class="QTableView" name="TV_Table">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>1536</width>
+           <height>846</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Assets/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

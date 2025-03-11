@@ -21,6 +21,22 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="font">
+    <font>
+     <family>Copperplate</family>
+     <pointsize>18</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> * {
+	border: none;
+}
+
+QDateEdit::up-arraow QDateEdit::down-arraow {
+	background-color: red;
+}</string>
+   </property>
    <layout class="QGridLayout" name="gridLayout">
     <property name="leftMargin">
      <number>0</number>
@@ -397,6 +413,9 @@
              <pointsize>14</pointsize>
              <bold>true</bold>
             </font>
+           </property>
+           <property name="autoFillBackground">
+            <bool>false</bool>
            </property>
            <property name="displayFormat">
             <string>yyyy/mm/dd</string>

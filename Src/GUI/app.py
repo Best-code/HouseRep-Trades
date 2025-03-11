@@ -2,8 +2,11 @@ import sys
 from PySide6 import QtCore, QtGui, QtWidgets
 from PySide6.QtWidgets import QApplication, QMainWindow
 from PySide6.QtUiTools import QUiLoader
+from PySide6.QtGui import QPixmap
+
 from MainMenu import Ui_MainWindow
 import sqlite3, os
+from PySide6.QtSql import QSqlRelationalTableModel, QSqlDatabase, QSqlTableModel
 from datetime import datetime
 
     
@@ -16,43 +19,35 @@ class MainApp(QMainWindow):
         self.ui = Ui_MainWindow()  # Create UI instance
         self.ui.setupUi(self)  # Load UI
         
-        self.year = 2025
-        self.con = sqlite3.connect("/Users/melons/Documents/Code/Python/HOR-Trades/Src/Data-Collection-Processing/Finance.db")
-        self.cur = self.con.cursor()
-        
         self.name = ""
         self.ticker = ""
         self.year = self.ui.DE_Year.date().toString("yyyy")
-        self.after = ""
-        self.before = ""
+        
+        self.con = sqlite3.connect("/Users/melons/Documents/Code/Python/HOR-Trades/Src/Data-Collection-Processing/Finance.db")
+        self.cur = self.con.cursor()
 
-        self.ui.LE_LastName.textChanged.connect(self.onNameUpdate)
-        self.ui.LE_Ticker.textChanged.connect(self.onTickerUpdate)
-        self.ui.DE_After.dateChanged.connect(self.onAfterUpdate)
+        self.ui.LE_Name.textChanged.connect(self.onNameUpdate)
+        self.ui.LE_Asset.textChanged.connect(self.onTickerUpdate)
         self.ui.DE_Year.dateChanged.connect(self.onYearUpdate)
-        self.ui.DE_Before.dateChanged.connect(self.onBeforeUpdate)
-        self.ui.B_Search.clicked.connect(self.executeSQL)
+        self.ui.PB_Search.clicked.connect(self.executeSQL)
+
+        SealPixMap = QPixmap("Assets/Seal_of_the_house_of_representatives.png")
+        self.ui.L_Seal.setPixmap(SealPixMap)
+
+        self.ui.TV_Table.verticalHeader().hide()
+
 
     def onNameUpdate(self):
-        self.name = self.ui.LE_LastName.text()  # Update Name text
+        self.name = self.ui.LE_Name.text()  # Update Name text
 
     def onTickerUpdate(self):
-        self.ticker = self.ui.LE_Ticker.text()  # Update Name text
+        self.ticker = self.ui.LE_Asset.text()  # Update Name text
 
     def onYearUpdate(self):
         self.year = self.ui.DE_Year.date().toString("yyyy")
 
-    def onAfterUpdate(self):
-        self.after = self.ui.DE_After.date()
-
-    def onBeforeUpdate(self):
-        self.before = self.ui.DE_Before.date()
-
-
     """
     TODO!
-    
-    1. Simplify the date range to just one year at a time for now between 2023-2025
     2. If their is a name filter, we will need to join Person x Trade together on ALL.
     3. Check the date range and pull info from those tables joined together.
     
@@ -61,7 +56,6 @@ class MainApp(QMainWindow):
     def generateQuery(self):
         self.tableName = f"trade_{self.year}"
         baseQuery = f"SELECT * FROM {self.tableName}"
-        # If there is nothing, then search everything
         
         # if(self.name != ""):
         #     baseQuery += " WHERE Name LIKE '%{self.name}%'"
@@ -72,8 +66,19 @@ class MainApp(QMainWindow):
         return baseQuery+";"
     
     def executeSQL(self):
-        res = self.cur.execute(self.generateQuery())
-        print(res.fetchall())
+        db = QSqlDatabase.addDatabase("QSQLITE")
+        db.setDatabaseName("/Users/melons/Documents/Code/Python/HOR-Trades/Src/Data-Collection-Processing/Finance.db")
+
+        model = QSqlRelationalTableModel()
+        model.setTable("trade_2024")
+        model.select()
+
+        self.ui.TV_Table.setModel(model)
+        self.ui.TV_Table.resizeColumnsToContents()
+        
+
+        # res = self.cur.execute(self.generateQuery())
+
          
  
 
