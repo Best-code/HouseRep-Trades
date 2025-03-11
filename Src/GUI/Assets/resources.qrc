@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>Seal_of_the_house_of_representatives.png</file>
+  </qresource>
+</RCC>
