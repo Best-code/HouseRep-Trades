@@ -190,7 +190,7 @@ background-color: #991916;
 	border-bottom-right-radius: 25px;
 }
 
-*[isFilterLabel=&quot;true&quot;] {
+QRadioButton, *[isFilterLabel=&quot;true&quot;] {
 		background-color: transparent;
 
 }</string>
@@ -276,24 +276,9 @@ background-color: #991916;
                 <number>18</number>
                </property>
                <item>
-                <widget class="QLabel" name="L_Name">
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
-                   <horstretch>0</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>72</width>
-                   <height>72</height>
-                  </size>
-                 </property>
+                <widget class="QRadioButton" name="RB_Name">
                  <property name="text">
                   <string>Name</string>
-                 </property>
-                 <property name="isFilterLabel" stdset="0">
-                  <bool>true</bool>
                  </property>
                 </widget>
                </item>
@@ -319,24 +304,9 @@ background-color: #991916;
                 <number>18</number>
                </property>
                <item>
-                <widget class="QLabel" name="L_Asset">
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
-                   <horstretch>0</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>72</width>
-                   <height>72</height>
-                  </size>
-                 </property>
+                <widget class="QRadioButton" name="RB_Asset">
                  <property name="text">
                   <string>Asset</string>
-                 </property>
-                 <property name="isFilterLabel" stdset="0">
-                  <bool>true</bool>
                  </property>
                 </widget>
                </item>

@@ -17,8 +17,8 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QPalette, QPixmap, QRadialGradient, QTransform)
 from PySide6.QtWidgets import (QAbstractItemView, QApplication, QCheckBox, QDateEdit,
     QGridLayout, QHBoxLayout, QHeaderView, QLabel,
-    QLineEdit, QMainWindow, QPushButton, QSizePolicy,
-    QTableView, QVBoxLayout, QWidget)
+    QLineEdit, QMainWindow, QPushButton, QRadioButton,
+    QSizePolicy, QTableView, QVBoxLayout, QWidget)
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -119,7 +119,7 @@ class Ui_MainWindow(object):
 "	border-bottom-right-radius: 25px;\n"
 "}\n"
 "\n"
-"*[isFilterLabel=\"true\"] {\n"
+"QRadioButton, *[isFilterLabel=\"true\"] {\n"
 "		background-color: transparent;\n"
 "\n"
 "}")
@@ -156,17 +156,10 @@ class Ui_MainWindow(object):
         self.horizontalLayout_2 = QHBoxLayout(self.FilterOption)
         self.horizontalLayout_2.setSpacing(18)
         self.horizontalLayout_2.setObjectName(u"horizontalLayout_2")
-        self.L_Name = QLabel(self.FilterOption)
-        self.L_Name.setObjectName(u"L_Name")
-        sizePolicy1 = QSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Preferred)
-        sizePolicy1.setHorizontalStretch(0)
-        sizePolicy1.setVerticalStretch(0)
-        sizePolicy1.setHeightForWidth(self.L_Name.sizePolicy().hasHeightForWidth())
-        self.L_Name.setSizePolicy(sizePolicy1)
-        self.L_Name.setMaximumSize(QSize(72, 72))
-        self.L_Name.setProperty(u"isFilterLabel", True)
+        self.RB_Name = QRadioButton(self.FilterOption)
+        self.RB_Name.setObjectName(u"RB_Name")
 
-        self.horizontalLayout_2.addWidget(self.L_Name)
+        self.horizontalLayout_2.addWidget(self.RB_Name)
 
         self.LE_Name = QLineEdit(self.FilterOption)
         self.LE_Name.setObjectName(u"LE_Name")
@@ -183,14 +176,10 @@ class Ui_MainWindow(object):
         self.horizontalLayout_4 = QHBoxLayout(self.FilterOption_3)
         self.horizontalLayout_4.setSpacing(18)
         self.horizontalLayout_4.setObjectName(u"horizontalLayout_4")
-        self.L_Asset = QLabel(self.FilterOption_3)
-        self.L_Asset.setObjectName(u"L_Asset")
-        sizePolicy1.setHeightForWidth(self.L_Asset.sizePolicy().hasHeightForWidth())
-        self.L_Asset.setSizePolicy(sizePolicy1)
-        self.L_Asset.setMaximumSize(QSize(72, 72))
-        self.L_Asset.setProperty(u"isFilterLabel", True)
+        self.RB_Asset = QRadioButton(self.FilterOption_3)
+        self.RB_Asset.setObjectName(u"RB_Asset")
 
-        self.horizontalLayout_4.addWidget(self.L_Asset)
+        self.horizontalLayout_4.addWidget(self.RB_Asset)
 
         self.LE_Asset = QLineEdit(self.FilterOption_3)
         self.LE_Asset.setObjectName(u"LE_Asset")
@@ -209,6 +198,9 @@ class Ui_MainWindow(object):
         self.horizontalLayout_6.setObjectName(u"horizontalLayout_6")
         self.L_Year = QLabel(self.FilterOption_5)
         self.L_Year.setObjectName(u"L_Year")
+        sizePolicy1 = QSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Preferred)
+        sizePolicy1.setHorizontalStretch(0)
+        sizePolicy1.setVerticalStretch(0)
         sizePolicy1.setHeightForWidth(self.L_Year.sizePolicy().hasHeightForWidth())
         self.L_Year.setSizePolicy(sizePolicy1)
         self.L_Year.setMaximumSize(QSize(72, 72))
@@ -314,8 +306,8 @@ class Ui_MainWindow(object):
         self.label_2.setText(QCoreApplication.translate("MainWindow", u"House Of Representative Trades", None))
         self.LeftSideBar.setProperty(u"id", QCoreApplication.translate("MainWindow", u"LeftSideBar", None))
         self.Filters.setText(QCoreApplication.translate("MainWindow", u"Filters", None))
-        self.L_Name.setText(QCoreApplication.translate("MainWindow", u"Name", None))
-        self.L_Asset.setText(QCoreApplication.translate("MainWindow", u"Asset", None))
+        self.RB_Name.setText(QCoreApplication.translate("MainWindow", u"Name", None))
+        self.RB_Asset.setText(QCoreApplication.translate("MainWindow", u"Asset", None))
         self.L_Year.setText(QCoreApplication.translate("MainWindow", u"Year", None))
         self.DE_Year.setDisplayFormat(QCoreApplication.translate("MainWindow", u"yyyy", None))
         self.CB_Purchase.setText(QCoreApplication.translate("MainWindow", u"Purchase", None))
