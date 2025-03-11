@@ -44,8 +44,20 @@ class MainApp(QMainWindow):
     def onBeforeUpdate(self):
         self.before = self.ui.DE_Before.date()
 
+    def generateQuery(self):
+        baseQuery = f"SELECT * FROM {self.tableName}"
+        # If there is nothing, then search everything
+        
+        # if(self.name != ""):
+        #     baseQuery += " WHERE Name LIKE '%{self.name}%'"
+        
+        if(self.ticker != ""):
+            baseQuery += f" WHERE AssetTicker LIKE '%{self.ticker}%'"
+        
+        return baseQuery+";"
+    
     def executeSQL(self):
-        res = self.cur.execute(f"SELECT * FROM {self.tableName};")
+        res = self.cur.execute(self.generateQuery())
         print(res.fetchall())
          
  
