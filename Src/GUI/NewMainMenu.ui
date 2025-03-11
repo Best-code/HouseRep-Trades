@@ -387,7 +387,7 @@ background-color: #991916;
                 <widget class="QDateEdit" name="DE_Year">
                  <property name="minimumDateTime">
                   <datetime>
-                   <hour>5</hour>
+                   <hour>0</hour>
                    <minute>0</minute>
                    <second>0</second>
                    <year>2023</year>
@@ -404,6 +404,123 @@ background-color: #991916;
                  </property>
                  <property name="displayFormat">
                   <string>yyyy</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget" native="true">
+              <property name="maximumSize">
+               <size>
+                <width>384</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font-size: 14px;</string>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_3">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QCheckBox" name="CB_Purchase">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>96</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Copperplate</family>
+                   <pointsize>-1</pointsize>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Purchase</string>
+                 </property>
+                 <property name="checked">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QCheckBox" name="CB_Sale">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>64</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Copperplate</family>
+                   <pointsize>-1</pointsize>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Sale</string>
+                 </property>
+                 <property name="checked">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QCheckBox" name="CB_Exchange">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>96</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Copperplate</family>
+                   <pointsize>-1</pointsize>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Exchange</string>
+                 </property>
+                 <property name="checked">
+                  <bool>true</bool>
                  </property>
                 </widget>
                </item>
@@ -443,25 +560,27 @@ background-color: #991916;
           <height>846</height>
          </size>
         </property>
-        <widget class="QTableView" name="TV_Table">
-         <property name="geometry">
-          <rect>
-           <x>0</x>
-           <y>0</y>
-           <width>1536</width>
-           <height>846</height>
-          </rect>
-         </property>
-         <property name="editTriggers">
-          <set>QAbstractItemView::EditTrigger::NoEditTriggers</set>
-         </property>
-         <property name="alternatingRowColors">
-          <bool>true</bool>
-         </property>
-         <property name="sortingEnabled">
-          <bool>true</bool>
-         </property>
-        </widget>
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <item>
+          <widget class="QTableView" name="TV_Table">
+           <property name="maximumSize">
+            <size>
+             <width>1536</width>
+             <height>846</height>
+            </size>
+           </property>
+           <property name="editTriggers">
+            <set>QAbstractItemView::EditTrigger::NoEditTriggers</set>
+           </property>
+           <property name="alternatingRowColors">
+            <bool>true</bool>
+           </property>
+           <property name="sortingEnabled">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
        </widget>
       </item>
      </layout>

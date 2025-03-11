@@ -15,10 +15,10 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QFont, QFontDatabase, QGradient, QIcon,
     QImage, QKeySequence, QLinearGradient, QPainter,
     QPalette, QPixmap, QRadialGradient, QTransform)
-from PySide6.QtWidgets import (QAbstractItemView, QApplication, QDateEdit, QGridLayout,
-    QHBoxLayout, QHeaderView, QLabel, QLineEdit,
-    QMainWindow, QPushButton, QSizePolicy, QTableView,
-    QVBoxLayout, QWidget)
+from PySide6.QtWidgets import (QAbstractItemView, QApplication, QCheckBox, QDateEdit,
+    QGridLayout, QHBoxLayout, QHeaderView, QLabel,
+    QLineEdit, QMainWindow, QPushButton, QSizePolicy,
+    QTableView, QVBoxLayout, QWidget)
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -218,13 +218,54 @@ class Ui_MainWindow(object):
 
         self.DE_Year = QDateEdit(self.FilterOption_5)
         self.DE_Year.setObjectName(u"DE_Year")
-        self.DE_Year.setMinimumDateTime(QDateTime(QDate(2023, 1, 1), QTime(5, 0, 0)))
+        self.DE_Year.setMinimumDateTime(QDateTime(QDate(2023, 1, 1), QTime(0, 0, 0)))
         self.DE_Year.setMaximumDate(QDate(2025, 12, 31))
 
         self.horizontalLayout_6.addWidget(self.DE_Year)
 
 
         self.verticalLayout.addWidget(self.FilterOption_5)
+
+        self.widget = QWidget(self.OptionFrame)
+        self.widget.setObjectName(u"widget")
+        self.widget.setMaximumSize(QSize(384, 50))
+        self.widget.setStyleSheet(u"font-size: 14px;")
+        self.horizontalLayout_3 = QHBoxLayout(self.widget)
+        self.horizontalLayout_3.setSpacing(0)
+        self.horizontalLayout_3.setObjectName(u"horizontalLayout_3")
+        self.horizontalLayout_3.setContentsMargins(0, 0, 0, 0)
+        self.CB_Purchase = QCheckBox(self.widget)
+        self.CB_Purchase.setObjectName(u"CB_Purchase")
+        sizePolicy.setHeightForWidth(self.CB_Purchase.sizePolicy().hasHeightForWidth())
+        self.CB_Purchase.setSizePolicy(sizePolicy)
+        self.CB_Purchase.setMaximumSize(QSize(96, 50))
+        self.CB_Purchase.setFont(font2)
+        self.CB_Purchase.setChecked(True)
+
+        self.horizontalLayout_3.addWidget(self.CB_Purchase)
+
+        self.CB_Sale = QCheckBox(self.widget)
+        self.CB_Sale.setObjectName(u"CB_Sale")
+        sizePolicy.setHeightForWidth(self.CB_Sale.sizePolicy().hasHeightForWidth())
+        self.CB_Sale.setSizePolicy(sizePolicy)
+        self.CB_Sale.setMaximumSize(QSize(64, 50))
+        self.CB_Sale.setFont(font2)
+        self.CB_Sale.setChecked(True)
+
+        self.horizontalLayout_3.addWidget(self.CB_Sale)
+
+        self.CB_Exchange = QCheckBox(self.widget)
+        self.CB_Exchange.setObjectName(u"CB_Exchange")
+        sizePolicy.setHeightForWidth(self.CB_Exchange.sizePolicy().hasHeightForWidth())
+        self.CB_Exchange.setSizePolicy(sizePolicy)
+        self.CB_Exchange.setMaximumSize(QSize(96, 50))
+        self.CB_Exchange.setFont(font2)
+        self.CB_Exchange.setChecked(True)
+
+        self.horizontalLayout_3.addWidget(self.CB_Exchange)
+
+
+        self.verticalLayout.addWidget(self.widget)
 
         self.PB_Search = QPushButton(self.OptionFrame)
         self.PB_Search.setObjectName(u"PB_Search")
@@ -243,12 +284,17 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.MainBody.sizePolicy().hasHeightForWidth())
         self.MainBody.setSizePolicy(sizePolicy)
         self.MainBody.setMaximumSize(QSize(1536, 846))
+        self.horizontalLayout_5 = QHBoxLayout(self.MainBody)
+        self.horizontalLayout_5.setObjectName(u"horizontalLayout_5")
         self.TV_Table = QTableView(self.MainBody)
         self.TV_Table.setObjectName(u"TV_Table")
-        self.TV_Table.setGeometry(QRect(0, 0, 1536, 846))
+        self.TV_Table.setMaximumSize(QSize(1536, 846))
         self.TV_Table.setEditTriggers(QAbstractItemView.EditTrigger.NoEditTriggers)
         self.TV_Table.setAlternatingRowColors(True)
         self.TV_Table.setSortingEnabled(True)
+
+        self.horizontalLayout_5.addWidget(self.TV_Table)
+
 
         self.horizontalLayout_7.addWidget(self.MainBody)
 
@@ -272,6 +318,9 @@ class Ui_MainWindow(object):
         self.L_Asset.setText(QCoreApplication.translate("MainWindow", u"Asset", None))
         self.L_Year.setText(QCoreApplication.translate("MainWindow", u"Year", None))
         self.DE_Year.setDisplayFormat(QCoreApplication.translate("MainWindow", u"yyyy", None))
+        self.CB_Purchase.setText(QCoreApplication.translate("MainWindow", u"Purchase", None))
+        self.CB_Sale.setText(QCoreApplication.translate("MainWindow", u"Sale", None))
+        self.CB_Exchange.setText(QCoreApplication.translate("MainWindow", u"Exchange", None))
         self.PB_Search.setText(QCoreApplication.translate("MainWindow", u"Search", None))
     # retranslateUi
 
