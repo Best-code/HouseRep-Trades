@@ -1,6 +1,6 @@
 import sys
 from PySide6 import QtCore, QtGui, QtWidgets
-from PySide6.QtCore import Qt
+from PySide6.QtCore import Qt, QDate
 from PySide6.QtWidgets import QApplication, QMainWindow, QStyledItemDelegate
 from PySide6.QtUiTools import QUiLoader
 from PySide6.QtGui import QPixmap
@@ -26,6 +26,8 @@ class MainApp(QMainWindow):
 
         db = QSqlDatabase.addDatabase("QSQLITE")
         db.setDatabaseName("/Users/melons/Documents/Code/Python/HOR-Trades/Src/Data-Collection-Processing/Finance.db")
+
+        self.ui.DE_Year.setMinimumDate(QDate(2022,1,1))
         
         self.name = ""
         self.ticker = ""
@@ -44,6 +46,7 @@ class MainApp(QMainWindow):
 
         SealPixMap = QPixmap("Assets/Seal_of_the_house_of_representatives.png")
         self.ui.L_Seal.setPixmap(SealPixMap)
+
 
         # self.ui.TV_Table.verticalHeader().hide()
 
