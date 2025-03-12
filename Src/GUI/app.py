@@ -94,7 +94,7 @@ class MainApp(QMainWindow):
         # Apply only when not grouped
         if not (self.nameRB or self.assetRB):
             self.ui.TV_Table.setItemDelegateForColumn(1, CurrencyDelegate())
-            self.ui.TV_Table.setColumnWidth(0, 150)
+            self.ui.TV_Table.setColumnWidth(0, 200)
             self.ui.TV_Table.setColumnWidth(1, 225)
             self.ui.TV_Table.setColumnWidth(2, 200)
             self.ui.TV_Table.setColumnWidth(3, 200)
@@ -201,7 +201,6 @@ class MainApp(QMainWindow):
         query = self.querySelect()
         
         model.setQuery(query, db)
-        
         while model.canFetchMore():
             model.fetchMore()
 
