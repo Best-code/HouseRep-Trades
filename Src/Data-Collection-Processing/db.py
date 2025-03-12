@@ -1,7 +1,7 @@
 import sqlite3, os
 from datetime import datetime
 
-year = 2023
+year = 2022
 
 con = sqlite3.connect("Finance.db")
 cur = con.cursor()

@@ -247,14 +247,14 @@ def createDirectories(year):
             os.makedirs(dir_path)
 
 
-year = 2023
+year = 2022
 
-# createDirectories(year)
+createDirectories(year)
 
-# GetFDReport(year)
+GetFDReport(year)
 
-# DeseminateDocID(year)
-# GetAllTradeReports(year)
+DeseminateDocID(year)
+GetAllTradeReports(year)
 
 AllPdfsToText(year)
 CleanAllTextFiles(year)

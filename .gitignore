@@ -6,6 +6,8 @@ __pycache__/
 # Jupyter notebooks
 *.ipynb
 
+Src/API/
+
 # No need for github repo to keep track of all the files
 Src/Data-Collection-Processing/Reports
 Src/Data-Collection-Processing/Disclosures
