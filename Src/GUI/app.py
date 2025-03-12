@@ -201,6 +201,9 @@ class MainApp(QMainWindow):
         query = self.querySelect()
         
         model.setQuery(query, db)
+        
+        while model.canFetchMore():
+            model.fetchMore()
 
         # Create Sorting Proxy Model
         proxy_model = QSortFilterProxyModel()
