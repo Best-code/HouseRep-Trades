@@ -57,90 +57,25 @@ class MainApp(QMainWindow):
 
     def onNameUpdate(self):
         self.name = self.ui.LE_Name.text()  # Update Name text
-
-
     def onTickerUpdate(self):
         self.ticker = self.ui.LE_Asset.text()  # Update Name text
-
     def onYearUpdate(self):
         self.year = self.ui.DE_Year.date().toString("yyyy")
-
     def onPurchaseUpdate(self):
         self.purchase = self.ui.CB_Purchase.isChecked()
-
     def onExchangeUpdate(self):
         self.exchange = self.ui.CB_Exchange.isChecked()
-
     def onSaleUpdate(self):
         self.sale = self.ui.CB_Sale.isChecked()
-
     def onAssetRBUpdate(self):
         self.assetRB = self.ui.RB_Asset.isChecked()  # Update Asset RB
         self.ui.RB_Name.setChecked(False)
-
+        self.nameRB = False
     def onNameRBUpdate(self):
         self.nameRB = self.ui.RB_Name.isChecked()  # Update Asset RB
         self.ui.RB_Asset.setChecked(False)
+        self.assetRB = False
 
-
-    def generateFilter(self):
-        filter = self.generateCBFilters(self.generateNameTickerFilter())
-        print(filter)
-        return filter
-
-    def generateNameTickerFilter(self):
-        baseQuery = ""
-        if(self.name and self.ticker):
-            baseQuery += f"Name LIKE '%{self.name}%' AND AssetTicker LIKE '%{self.ticker}%'"
-        elif(self.name):
-            baseQuery += f"Name LIKE '%{self.name}%'"
-        elif(self.ticker):
-            baseQuery += f"AssetTicker LIKE '%{self.ticker}%'"
-            
-        return baseQuery
-    
-    def generateCBFilters(self, NameTickerFilter):
-        # If accepting all checkboxes, filter nothing and return
-        if (
-        (self.exchange and self.purchase and self.sale) 
-        or 
-        (not self.exchange and not self.purchase and not self.sale)
-        ):
-            return NameTickerFilter
-
-        if NameTickerFilter:
-            NameTickerFilter += " AND "
-
-        if self.purchase and self.exchange:
-            NameTickerFilter += "TransactionType = 'P' OR TransactionType = 'E'"
-
-        elif self.purchase and self.sale:
-            NameTickerFilter += "TransactionType = 'P' OR TransactionType = 'S'"
-
-        elif self.exchange and self.sale:
-            NameTickerFilter += "TransactionType = 'E' OR TransactionType = 'S'"
-        
-        elif self.exchange:
-            NameTickerFilter += "TransactionType = 'E'"
-
-        elif self.purchase:
-            NameTickerFilter += "TransactionType = 'P'"
-
-        elif self.sale:
-            NameTickerFilter += "TransactionType = 'S'"
-            
-        return NameTickerFilter
-            
-
-    def tableSetup(self, model: QSqlRelationalTableModel):
-        tradeTableName = f"trade_{self.year}"
-        personTableName = f"person_{self.year}"
-        model.setTable(tradeTableName)
-
-        model.setRelation(4, QSqlRelation(personTableName, "DocumentID", "Name"))
-
-        model.setFilter(self.generateFilter())
-    
     def setColumnNames(self, model: QSqlRelationalTableModel):
         model.setHeaderData(0, Qt.Orientation.Horizontal, "ID")
         model.setHeaderData(1, Qt.Orientation.Horizontal, "Asset")
@@ -150,96 +85,131 @@ class MainApp(QMainWindow):
         model.setHeaderData(5, Qt.Orientation.Horizontal, "Type")
 
     def styleColumns(self, model : QSqlRelationalTableModel):
-        # Apply only when not grouped
-        if not (self.nameRB or self.assetRB):
-            self.ui.TV_Table.hideColumn(0)
-            self.ui.TV_Table.setItemDelegateForColumn(2, CurrencyDelegate())
-            self.ui.TV_Table.setColumnWidth(1, 150)
+       # If grouped 
+        if (self.nameRB or self.assetRB):
+            self.ui.TV_Table.setColumnWidth(1, 400)
             self.ui.TV_Table.setColumnWidth(2, 200)
             self.ui.TV_Table.setColumnWidth(3, 200)
-            
-       # If grouped 
-        self.ui.TV_Table.setColumnWidth(1, 400)
-        self.ui.TV_Table.setColumnWidth(2, 200)
-        self.ui.TV_Table.setColumnWidth(3, 200)
-
-        print(f"Total Columns: {model.columnCount()}")
-        for i in range(model.columnCount()):
-            print(f"Column {i}: {model.headerData(i, Qt.Orientation.Horizontal)}")
-
         
-    def executeSQL(self):
-        # If there are no groups / radio buttons, then proceed as normal
+        # Apply only when not grouped
         if not (self.nameRB or self.assetRB):
-            model = QSqlRelationalTableModel()
-            self.tableSetup(model)
-            model.select()
-            self.setColumnNames(model)
+            self.ui.TV_Table.setItemDelegateForColumn(1, CurrencyDelegate())
+            self.ui.TV_Table.setColumnWidth(0, 150)
+            self.ui.TV_Table.setColumnWidth(1, 225)
+            self.ui.TV_Table.setColumnWidth(2, 200)
+            self.ui.TV_Table.setColumnWidth(3, 200)
+            self.ui.TV_Table.setColumnWidth(4, 150)
+            self.ui.TV_Table.setColumnWidth(5, 150)
 
-            self.ui.TV_Table.setModel(model)
-            self.ui.TV_Table.resizeColumnsToContents()
-            self.styleColumns(model)
+    def generateNameTickerFilter(self):
+        baseQuery = ""
+        if(self.name and self.ticker):
+            baseQuery += f" WHERE Name LIKE '%{self.name}%' AND AssetTicker LIKE '%{self.ticker}%'"
+            baseQuery = self.generateCBFilters(baseQuery, True)
+        elif(self.name):
+            baseQuery += f" WHERE Name LIKE '%{self.name}%'"
+            baseQuery = self.generateCBFilters(baseQuery, True)
+        elif(self.ticker):
+            baseQuery += f" WHERE AssetTicker LIKE '%{self.ticker}%'"
+            baseQuery = self.generateCBFilters(baseQuery, True)
+        else:
+            baseQuery = self.generateCBFilters(baseQuery, True)
             
-            
-        else: # If there are radio buttons / groups
+        return baseQuery
+    
+    def generateCBFilters(self, NameTickerFilter: str, concat: bool = False):
+        # If accepting all checkboxes, filter nothing and return
+        if (
+        (self.exchange and self.purchase and self.sale) 
+        or 
+        (not self.exchange and not self.purchase and not self.sale)
+        ):
+            return NameTickerFilter
 
-            """ DB Validation """
-            db = QSqlDatabase.database()  # Get the existing database connection
-            if not db.isValid():
-                db = QSqlDatabase.addDatabase("QSQLITE")  # Add the database connection
-                db.setDatabaseName("/Users/melons/Documents/Code/Python/HOR-Trades/Src/Data-Collection-Processing/Finance.db")
-            if not db.open():
-                print("❌ Database failed to open:", db.lastError().text())
-            else:
-                print("✅ Database opened successfully.")
-
-            
-            tradeTableName = f"trade_{self.year}"
-            personTableName = f"person_{self.year}"
-            
-            model = QSqlQueryModel()
-            
-            query=""
-            # If grouping by Asset
-            if self.assetRB:
-                query = f"""SELECT 
-                {tradeTableName}.AssetTicker,
-                {tradeTableName}.TransactionType, 
-                Count(*) as count
-                FROM {tradeTableName}
-                INNER JOIN {personTableName} ON {tradeTableName}.DocumentID = {personTableName}.DocumentID
-                GROUP BY {tradeTableName}.AssetTicker, {tradeTableName}.TransactionType;
-                """ 
-            else:
-                query = f"""SELECT 
-                {personTableName}.Name, 
-                {tradeTableName}.TransactionType, 
-                Count(*) as count
-                FROM {tradeTableName}
-                INNER JOIN {personTableName} ON {tradeTableName}.DocumentID = {personTableName}.DocumentID
-                GROUP BY {personTableName}.Name;
-                """ 
-                
-                        
-            model.setQuery(query, db)
-
-            # Create Sorting Proxy Model
-            proxy_model = QSortFilterProxyModel()
-            proxy_model.setSourceModel(model)
-            proxy_model.setSortRole(Qt.ItemDataRole.DisplayRole) 
-
-            self.ui.TV_Table.setModel(proxy_model)
-            self.ui.TV_Table.resizeColumnsToContents()
-            self.styleColumns(model)
-            
-
-
+        if concat:
+            NameTickerFilter += " AND "
         
+        if not concat:
+            NameTickerFilter += " WHERE "
 
+        if self.purchase and self.exchange:
+            NameTickerFilter += "(TransactionType = 'P' OR TransactionType = 'E') "
 
-         
- 
+        elif self.purchase and self.sale:
+            NameTickerFilter += "(TransactionType = 'P' OR TransactionType = 'S') "
 
+        elif self.exchange and self.sale:
+            NameTickerFilter += "(TransactionType = 'E' OR TransactionType = 'S') "
+        
+        elif self.exchange:
+            NameTickerFilter += "TransactionType = 'E' "
+
+        elif self.purchase:
+            NameTickerFilter += "TransactionType = 'P' "
+
+        elif self.sale:
+            NameTickerFilter += "TransactionType = 'S' "
+            
+        return NameTickerFilter
+
+    def parseSQL(self, query: str):
+        query += self.generateNameTickerFilter()
+        return query
+      
+      
+    def querySelect(self):
+        query = ""
+        tradeTableName = f"trade_{self.year}"
+        personTableName = f"person_{self.year}"
+
+        if self.assetRB:
+            query = f"""
+            SELECT {tradeTableName}.AssetTicker, {tradeTableName}.TransactionType, Count(*) as count
+            FROM {tradeTableName}
+            INNER JOIN {personTableName} ON {tradeTableName}.DocumentID = {personTableName}.DocumentID
+            """
+            query = self.parseSQL(query)
+            query += f"GROUP BY {tradeTableName}.AssetTicker, {tradeTableName}.TransactionType;"
+        elif self.nameRB:
+            query = f"""
+            SELECT {personTableName}.Name, {tradeTableName}.TransactionType, Count(*) as count
+            FROM {tradeTableName}
+            INNER JOIN {personTableName} ON {tradeTableName}.DocumentID = {personTableName}.DocumentID
+            """
+            query = self.parseSQL(query)
+            query += f"GROUP BY {personTableName}.Name;"
+        else:
+            query = f"""
+            SELECT {tradeTableName}.AssetTicker, {tradeTableName}.Price, {tradeTableName}.DatePurchased, {personTableName}.Name, {tradeTableName}.DocumentID, {tradeTableName}.TransactionType
+            FROM {tradeTableName}
+            INNER JOIN {personTableName} ON {tradeTableName}.DocumentID = {personTableName}.DocumentID
+            """
+            query = self.parseSQL(query)
+            query += ";"
+        
+        return query
+    
+    def executeSQL(self):
+        db = QSqlDatabase.database()  # Get the existing database connection
+        if not db.isValid():
+            db = QSqlDatabase.addDatabase("QSQLITE")  # Add the database connection
+            db.setDatabaseName("/Users/melons/Documents/Code/Python/HOR-Trades/Src/Data-Collection-Processing/Finance.db")
+        if not db.open():
+            print("❌ Database failed to open:", db.lastError().text())
+
+        model = QSqlQueryModel()
+        query = self.querySelect()
+        
+        model.setQuery(query, db)
+
+        # Create Sorting Proxy Model
+        proxy_model = QSortFilterProxyModel()
+        proxy_model.setSourceModel(model)
+        proxy_model.setSortRole(Qt.ItemDataRole.DisplayRole) 
+
+        self.ui.TV_Table.setModel(proxy_model)
+        self.ui.TV_Table.resizeColumnsToContents()
+        self.styleColumns(model)
 
 # Run the application
 if __name__ == "__main__":
