@@ -1,0 +1,28 @@
+annotated-types @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/annotated-types_1728588668736/work
+anyio @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/anyio_1731706914135/work
+certifi @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_53iribkvo4/croot/certifi_1738623743875/work/certifi
+charset-normalizer==3.4.1
+distro @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/distro_1728591855492/work
+finnhub-python==2.4.22
+h11 @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/h11_1728586685264/work
+httpcore @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/httpcore_1728587884000/work
+httpx @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/httpx_1731708341720/work
+idna @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/idna_1728585920859/work
+jiter @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/jiter_1731719763269/work
+openai @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_01x2us7tym/croot/openai_1738233374661/work
+pydantic @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_4blmh3bau_/croot/pydantic_1734736077970/work
+pydantic_core @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_bdqco4zmod/croot/pydantic-core_1734726070262/work
+PyPDF2==3.0.1
+PySide6==6.8.2.1
+PySide6_Addons==6.8.2.1
+PySide6_Essentials==6.8.2.1
+python-dotenv==1.0.1
+requests==2.32.3
+setuptools==75.8.0
+shiboken6==6.8.2.1
+sniffio @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/sniffio_1728586434087/work
+tqdm @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_5642tzrprr/croot/tqdm_1738943467095/work
+typing_extensions @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_0b3jpv_f79/croot/typing_extensions_1734714864260/work
+urllib3==2.3.0
+websocket-client==1.8.0
+wheel==0.45.1
